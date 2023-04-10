@@ -1,13 +1,12 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     // UI elements
-    public TextMeshPro stageCounterText;
-    public TextMeshPro enemiesDefeatedText;
-    public TextMeshPro virtuePointsText;
+    public TMP_Text stageCounterText;
+    public TMP_Text enemiesDefeatedText;
+    public TMP_Text virtuePointsText;
 
     // Initialization
     void Start()

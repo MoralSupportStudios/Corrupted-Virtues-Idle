@@ -1,18 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
+// Enemy.cs
+using System;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int health = 100;
+    public event Action OnEnemyDeath;
+
+    public void TakeDamage(int damage)
     {
-        
+        health -= damage;
+        if (health <= 0)
+        {
+            Die();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Die()
     {
-        
+        // Handle the enemy's death, e.g. play animation
+        Debug.Log("Enemy died!");
+
+        // Notify GameManager that the enemy has died
+        OnEnemyDeath?.Invoke();
+
+        // Destroy the enemy game object
+        Destroy(gameObject);
     }
 }

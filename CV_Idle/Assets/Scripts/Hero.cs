@@ -2,24 +2,10 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public HeroData heroData;
+    public int damage = 10;
 
-    // Other variables specific to the hero instance
-    // ...
-
-    void Start()
+    public void Attack(Enemy enemyScript)
     {
-        // Initialize the hero with the data from the HeroData ScriptableObject
-        InitializeHero();
+        enemyScript.TakeDamage(damage);
     }
-
-    void InitializeHero()
-    {
-        // Set hero stats from the HeroData ScriptableObject
-        // Example: GetComponent<SpriteRenderer>().sprite = heroData.heroSprite;
-        // ...
-    }
-
-    // Other functions specific to the hero instance
-    // ...
 }

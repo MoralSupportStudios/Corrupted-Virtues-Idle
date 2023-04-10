@@ -16,4 +16,4 @@ MonoBehaviour:
   attackDamage: 1
   attackSpeed: 1
   abilityDamage: 10
-  heroSprite: {fileID: 0}
+  heroSprite: {fileID: -41512003, guid: 06de2b4e95411dc42ad0f72f3c36b1f3, type: 3}

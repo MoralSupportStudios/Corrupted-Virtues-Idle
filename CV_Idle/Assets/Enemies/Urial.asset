@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c135794298d19b408f9b77ef0e3a3af, type: 3}
-  m_Name: NewEnemyData
+  m_Name: Urial
   m_EditorClassIdentifier: 
-  enemyName: Sloth
+  enemyName: Urial
   health: 100
-  enemySprite: {fileID: 0}
+  enemySprite: {fileID: 21300000, guid: acfb7c6f688f33f458e2a24eda770313, type: 3}
   boss: 1

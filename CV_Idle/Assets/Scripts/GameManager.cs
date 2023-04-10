@@ -1,80 +1,56 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Variables to track game state
-    public int currentStage;
-    public int enemiesDefeated;
-    public int virtuePoints;
-
-    // References to other managers
-    public UIManager uiManager;
-    public QuestManager questManager;
-
-    // Hero and enemy prefabs
-    public GameObject heroPrefab;
+    public GameObject hero;
     public GameObject enemyPrefab;
+    private GameObject currentEnemy;
+    private Hero heroScript;
+    private Enemy enemyScript;
+    private float attackInterval = 2.0f;
+    private float nextAttackTime = 0f;
+    private int enemyHealthIncrement = 10;
 
-    // Enemy spawn position (2D)
-    public Vector2 enemySpawnPosition;
-
-    // Start is called before the first frame update
     void Start()
     {
-        // Initialize game state variables
-        currentStage = 1;
-        enemiesDefeated = 0;
-        virtuePoints = 0;
+        // Get the Hero script
+        heroScript = hero.GetComponent<Hero>();
 
-        // Initialize other managers, spawn points, etc.
-        // ...
-
-        // Spawn the first hero and enemy
-        SpawnHero();
+        // Spawn the first enemy
         SpawnEnemy();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Handle game state updates, such as checking for enemy deaths, etc.
-        // ...
-    }
-    public void EnemyDefeated()
-    {
-        // Increment enemies defeated
-        enemiesDefeated++;
-
-        // Check for boss stage
-        if (enemiesDefeated % 10 == 0)
+        // Check if it's time to attack
+        if (Time.time >= nextAttackTime)
         {
-            // Handle boss stage logic
-            // ...
+            heroScript.Attack(enemyScript);
+            nextAttackTime = Time.time + attackInterval;
         }
-        else
-        {
-            // Spawn a new enemy
-            SpawnEnemy();
-        }
-
-        // Update UI with the new stage and enemies defeated
-        uiManager.UpdateStageCounter(currentStage, enemiesDefeated);
     }
 
-    void SpawnHero()
+    private void SpawnEnemy()
     {
-        // Instantiate a new hero (modify this part based on your game design, e.g., if heroes are static or have a specific spawn position)
-        Instantiate(heroPrefab, Vector2.zero, Quaternion.identity);
+        // Instantiate a new enemy and get its script
+        currentEnemy = Instantiate(enemyPrefab);
+        enemyScript = currentEnemy.GetComponent<Enemy>();
+
+        // Subscribe to the enemy's death event
+        enemyScript.OnEnemyDeath += OnEnemyDeath;
+
+        // Increase the enemy's health
+        enemyScript.health += enemyHealthIncrement;
+        enemyHealthIncrement += 10;
     }
 
-    void SpawnEnemy()
+    private void OnEnemyDeath()
     {
-        // Instantiate a new enemy at the enemy spawn position
-        Instantiate(enemyPrefab, enemySpawnPosition, Quaternion.identity);
-    }
+        // Unsubscribe from the enemy's death event to prevent memory leaks
+        enemyScript.OnEnemyDeath -= OnEnemyDeath;
 
-    // Other game management functions (e.g., handling Virtue Points, quest updates, etc.)
-    // ...
+        // Spawn a new enemy
+        SpawnEnemy();
+    }
 }

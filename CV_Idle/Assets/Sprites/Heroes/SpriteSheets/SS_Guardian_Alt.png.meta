@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fea555e3edebac448e62314d1de0e5d
+guid: 06de2b4e95411dc42ad0f72f3c36b1f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DragonKnight_Alt_0
+      name: SS_Guardian_Alt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84c3f42d9b2f9ac4aaaf9e9ffe3395f6
-      internalID: 743424996
+      spriteID: f0784d6dcbbaf7d46b05388ff85eeb4b
+      internalID: 1855034382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_1
+      name: SS_Guardian_Alt_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc12489a6c1a8df4c9c7e71f2359d512
-      internalID: -972764953
+      spriteID: 1543d8b1d45453f4d9df8bbdbdc53643
+      internalID: 1709645810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_2
+      name: SS_Guardian_Alt_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86765302b16ef2f48b3f6020ca2fab9b
-      internalID: -675588369
+      spriteID: 5d6b3fc1b2382724892aca755a235274
+      internalID: -1168003321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_3
+      name: SS_Guardian_Alt_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c6918c92e927044a602d80c277d080
-      internalID: 901332799
+      spriteID: b7c69eaf20b0a824d9edcd26c1c5c1cd
+      internalID: 111658152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_4
+      name: SS_Guardian_Alt_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90ce8412ba5f6744fa266b256ee099e0
-      internalID: -119121101
+      spriteID: 108fc6d3e9ab5a9489c8b564fc703624
+      internalID: -131449492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_5
+      name: SS_Guardian_Alt_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a8f6f181af5ff4d9ce9206ac88b46b
-      internalID: 73647764
+      spriteID: 58ebd6b79aab9cc44b7638ce1f1a9403
+      internalID: -41512003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_6
+      name: SS_Guardian_Alt_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32e4d26c442662e48ab13b7a9cedd2d9
-      internalID: -1203905910
+      spriteID: b503bd71c3c50864796fc672d3392438
+      internalID: -1541848915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_7
+      name: SS_Guardian_Alt_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66370ac6a2478148ae00e32dc58cdbb
-      internalID: 254002868
+      spriteID: a81bc66e0cd9ff44f88c248b523656e1
+      internalID: -1429502220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_8
+      name: SS_Guardian_Alt_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6888d7c552dab4aaa585ada806521f
-      internalID: 1007979855
+      spriteID: 60074d9ca4a85334ea2d842a12b92e61
+      internalID: 1848797939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_9
+      name: SS_Guardian_Alt_9
       rect:
         serializedVersion: 2
         x: 0
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec79eb36836b5e7468f7967bbaec4c31
-      internalID: -2053078501
+      spriteID: d085e9a3e7b21f54f80c1dc2fc0bcf5c
+      internalID: -1239623461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_10
+      name: SS_Guardian_Alt_10
       rect:
         serializedVersion: 2
         x: 32
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c43ea43cd6ef144ab3260c169d7114b
-      internalID: -1571571397
+      spriteID: 60433576e4fb2694b8270b728fcc3834
+      internalID: 1980449655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_11
+      name: SS_Guardian_Alt_11
       rect:
         serializedVersion: 2
         x: 64
@@ -374,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb9282971b6840343bba472fd518d7e1
-      internalID: -1913662628
+      spriteID: a415a3788ee7fc74cb9260d0cf1b63e9
+      internalID: -886222342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_12
+      name: SS_Guardian_Alt_12
       rect:
         serializedVersion: 2
         x: 96
@@ -395,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d27559617069cd84ba4e8f3b54c14d82
-      internalID: -1803773956
+      spriteID: b9fc9e80d5157f84ea613f780b880b8a
+      internalID: -1374531948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_13
+      name: SS_Guardian_Alt_13
       rect:
         serializedVersion: 2
         x: 128
@@ -416,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b14a0f35834e96241a0da7c1275a8d69
-      internalID: -288487264
+      spriteID: a2ae140b9c6eb9f4992a4e0ba1a35504
+      internalID: -1222624668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_14
+      name: SS_Guardian_Alt_14
       rect:
         serializedVersion: 2
         x: 160
@@ -437,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 484c4cc422057e7428838141e63161fe
-      internalID: 1531262978
+      spriteID: 485e678f7cf8c204f99f4ca9311f6d7b
+      internalID: 1808856635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_15
+      name: SS_Guardian_Alt_15
       rect:
         serializedVersion: 2
         x: 192
@@ -458,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70c6e3792733b89439d48c84fdc63a09
-      internalID: 1610935569
+      spriteID: 6c4925b42bfebe845ab6615673daa88a
+      internalID: 842056354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_16
+      name: SS_Guardian_Alt_16
       rect:
         serializedVersion: 2
         x: 224
@@ -479,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74494b75a1828314ebef4c6a260a659d
-      internalID: -1129809803
+      spriteID: 14a8134d0a0d89c48a4535c90e0b9d4b
+      internalID: -1060036531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_17
+      name: SS_Guardian_Alt_17
       rect:
         serializedVersion: 2
         x: 256
@@ -500,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ce492b2b838cf46b8f581251042dae
-      internalID: -498387885
+      spriteID: 7788a75bf6e7d244f94e13fd905172c0
+      internalID: 1968237830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_18
+      name: SS_Guardian_Alt_18
       rect:
         serializedVersion: 2
         x: 0
@@ -521,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f01c10cffff512409686a64143b2120
-      internalID: -1696693192
+      spriteID: 13f839a936d3f6a459a61d86c736e127
+      internalID: -1610059125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_19
+      name: SS_Guardian_Alt_19
       rect:
         serializedVersion: 2
         x: 32
@@ -542,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c135fd36149b8c45b45fcce2540fbed
-      internalID: -1401588496
+      spriteID: ff942402e3c0e1e4c91aa1e1fbc24a68
+      internalID: 836397390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_20
+      name: SS_Guardian_Alt_20
       rect:
         serializedVersion: 2
         x: 64
@@ -563,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4251ea0090b18ae46b4c84fcada9c808
-      internalID: -1653352807
+      spriteID: 0c310c989d73c3545bf71445322144a0
+      internalID: -772992621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_21
+      name: SS_Guardian_Alt_21
       rect:
         serializedVersion: 2
         x: 96
@@ -584,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb440019efbd4f48aa6e6bb59fbfc27
-      internalID: 2069543371
+      spriteID: 8191990a81f598644877bba55798388a
+      internalID: 218087841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_22
+      name: SS_Guardian_Alt_22
       rect:
         serializedVersion: 2
         x: 128
@@ -605,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 921cc2132e62f124eb5f39705fae0669
-      internalID: 885415876
+      spriteID: 121546f99d234ba47a95fb942f7d94ba
+      internalID: 172597397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_23
+      name: SS_Guardian_Alt_23
       rect:
         serializedVersion: 2
         x: 160
@@ -626,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3736d6cb8be67d488ababb2c0d49c46
-      internalID: -1475103547
+      spriteID: a6a5af76b128f2843baef74ab7c69d2c
+      internalID: -373801115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_24
+      name: SS_Guardian_Alt_24
       rect:
         serializedVersion: 2
         x: 192
@@ -647,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a968d0d179b663b4ab050eda3eaf0634
-      internalID: -1449126628
+      spriteID: 8bfe9e2d5374c6143910cb8e0e5553d5
+      internalID: -1678771662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_25
+      name: SS_Guardian_Alt_25
       rect:
         serializedVersion: 2
         x: 224
@@ -668,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a74b6574b3f99444a9f8f33dc4c6445
-      internalID: -1655207264
+      spriteID: 946ed8ef5df0a4c43aac68a6120338cd
+      internalID: 574958406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_26
+      name: SS_Guardian_Alt_26
       rect:
         serializedVersion: 2
         x: 256
@@ -689,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec64abc44cc45714b82af453d907be83
-      internalID: 74751888
+      spriteID: c062089b17a600c4485483843db34fd3
+      internalID: -1104829446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_27
+      name: SS_Guardian_Alt_27
       rect:
         serializedVersion: 2
         x: 0
@@ -710,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d7d47464211f6a448cd2ca4e6499dcb
-      internalID: -2122939773
+      spriteID: 0c985c579066f9d4ca4f64afef15313d
+      internalID: -1944521669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_28
+      name: SS_Guardian_Alt_28
       rect:
         serializedVersion: 2
         x: 32
@@ -731,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2ba1603347fd34898b44db93c0f838
-      internalID: 953155387
+      spriteID: 1f905db3de984ac488bf5fed5ac8d717
+      internalID: -954888419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_29
+      name: SS_Guardian_Alt_29
       rect:
         serializedVersion: 2
         x: 64
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 909e9a3e4ef3f33429dd1e56fec8da88
-      internalID: -607847444
+      spriteID: 98d4ebdc82a80564d8123fc7f6a5ceeb
+      internalID: 256316235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_30
+      name: SS_Guardian_Alt_30
       rect:
         serializedVersion: 2
         x: 96
@@ -773,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6368c08b3b9a1534bafc9dc9f7fb7d9c
-      internalID: -1701945371
+      spriteID: a271b35570217c64b98d44eba76645b5
+      internalID: 135100616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_31
+      name: SS_Guardian_Alt_31
       rect:
         serializedVersion: 2
         x: 128
@@ -794,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 962d63a84456e2c489dcbfc0e8c446e5
-      internalID: 1946587023
+      spriteID: 82b975076057e8d449af23ede6493a37
+      internalID: -1759691820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_32
+      name: SS_Guardian_Alt_32
       rect:
         serializedVersion: 2
         x: 160
@@ -815,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e81fa43eedc5c4ea129815b3d22aee
-      internalID: -2004960883
+      spriteID: aea022c24ab1377478ae7b93b970bc27
+      internalID: 14778734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_33
+      name: SS_Guardian_Alt_33
       rect:
         serializedVersion: 2
         x: 192
@@ -836,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f830d661abf1ab548af52c21d9d872c9
-      internalID: -235824972
+      spriteID: 32dfd47ea7fc88d488075811b0d49f9b
+      internalID: -891060906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_34
+      name: SS_Guardian_Alt_34
       rect:
         serializedVersion: 2
         x: 224
@@ -857,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba27412418c7e17498b697d854a9966c
-      internalID: 1137829910
+      spriteID: 0cd8e129a59a05647aad03c2bc151598
+      internalID: 2038698426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_35
+      name: SS_Guardian_Alt_35
       rect:
         serializedVersion: 2
         x: 256
@@ -878,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa927438890c94489e603085c0e0227
-      internalID: -1058663464
+      spriteID: 4407678a9eda0a2458030c42ef9e4911
+      internalID: -843651022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_36
+      name: SS_Guardian_Alt_36
       rect:
         serializedVersion: 2
         x: 0
@@ -899,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1f99921cd471ec41a389d21493b02bb
-      internalID: 1112682883
+      spriteID: 15cf85e21c124994da3c500f55052714
+      internalID: 1245954776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_37
+      name: SS_Guardian_Alt_37
       rect:
         serializedVersion: 2
         x: 32
@@ -920,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df2b46eb088d8744bcadf27dc3a9592
-      internalID: -1040058537
+      spriteID: be37e841dad33f04fb4c003df0556bd5
+      internalID: 2008231854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_38
+      name: SS_Guardian_Alt_38
       rect:
         serializedVersion: 2
         x: 64
@@ -941,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81a59ba33b68055488126c02f2f78d85
-      internalID: 1262847220
+      spriteID: 3263933535584b043a9257499ac1edd3
+      internalID: 1191341906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_39
+      name: SS_Guardian_Alt_39
       rect:
         serializedVersion: 2
         x: 96
@@ -962,14 +962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7295e4dab2837d49877120d7feb4d27
-      internalID: 1365294102
+      spriteID: bb77d7719b5df2f46b59893c3b325353
+      internalID: -788321941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_40
+      name: SS_Guardian_Alt_40
       rect:
         serializedVersion: 2
         x: 128
@@ -983,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e30491e758b14b4b8e58fc68c02c65e
-      internalID: -239669821
+      spriteID: 53bb8185744cf484780be6a6d656055f
+      internalID: -964222008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_41
+      name: SS_Guardian_Alt_41
       rect:
         serializedVersion: 2
         x: 160
@@ -1004,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f6f58f7ed1c46e4ca5037068be0d9a0
-      internalID: 354759137
+      spriteID: c9715e69db989d145893de9a1e098a91
+      internalID: -1558322983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_42
+      name: SS_Guardian_Alt_42
       rect:
         serializedVersion: 2
         x: 192
@@ -1025,14 +1025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad9cf6b1964386744b83c325fc489364
-      internalID: -313844032
+      spriteID: 7b79d2cb3ad161f41ad77fd7ab0bb95f
+      internalID: -1257426193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_43
+      name: SS_Guardian_Alt_43
       rect:
         serializedVersion: 2
         x: 224
@@ -1046,14 +1046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa9c7f74eb12a1741bc833c14d3f453e
-      internalID: 1046130029
+      spriteID: 21ba4f5f0f63dad41ae633cc30443ed5
+      internalID: 690196180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_44
+      name: SS_Guardian_Alt_44
       rect:
         serializedVersion: 2
         x: 256
@@ -1067,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7388613ad50ec9548bcae171be6a209d
-      internalID: 2072259205
+      spriteID: 7c76f27f6ad70e64fb589faa7878e2b3
+      internalID: 250160233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_45
+      name: SS_Guardian_Alt_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1088,14 +1088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23029dd5eb3a91047800484ccc495249
-      internalID: 482431115
+      spriteID: 5b9ec35690635bc4cb6ca61574933e4f
+      internalID: -1996805421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_46
+      name: SS_Guardian_Alt_46
       rect:
         serializedVersion: 2
         x: 32
@@ -1109,14 +1109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30583b5b670540f49a7eac44d8b57c9d
-      internalID: -2113537367
+      spriteID: a6b59d9c35147a446b5c6bbc5843890b
+      internalID: 605429962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_47
+      name: SS_Guardian_Alt_47
       rect:
         serializedVersion: 2
         x: 64
@@ -1130,14 +1130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e248ac0f5d629bc4a878db9a2cb2b045
-      internalID: 1687394443
+      spriteID: a5c54a97208e2fa4fa30423eaf4cf4de
+      internalID: 826592393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_48
+      name: SS_Guardian_Alt_48
       rect:
         serializedVersion: 2
         x: 96
@@ -1151,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 531c0e9c2229d3345b34258054ab44a7
-      internalID: -1504946273
+      spriteID: ab4a9f30bd7fc624d82e6f7fd8ccc478
+      internalID: -896064971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_49
+      name: SS_Guardian_Alt_49
       rect:
         serializedVersion: 2
         x: 128
@@ -1172,14 +1172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73997362c23fa349a99d83c57cdfc52
-      internalID: 797318283
+      spriteID: 61cfb39625c161a4b83547f2100e4591
+      internalID: -1407950102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_50
+      name: SS_Guardian_Alt_50
       rect:
         serializedVersion: 2
         x: 160
@@ -1193,14 +1193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b0e99fe27ba58e4bade86ccbbb11516
-      internalID: 367607783
+      spriteID: 49a86d6078b34f14eb2358ec29b6a160
+      internalID: 130624343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_51
+      name: SS_Guardian_Alt_51
       rect:
         serializedVersion: 2
         x: 192
@@ -1214,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1577b10aca41a9345906afc43df8f2f7
-      internalID: 850297755
+      spriteID: 980f5e9f8efa218438a650348c70cb1b
+      internalID: -1765004166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_52
+      name: SS_Guardian_Alt_52
       rect:
         serializedVersion: 2
         x: 224
@@ -1235,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec31525f9e2fb8544bc479baf9e73367
-      internalID: 1047745764
+      spriteID: 0f96f768f4b2bbb4aa9dcf0a500753f4
+      internalID: 1704801536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DragonKnight_Alt_53
+      name: SS_Guardian_Alt_53
       rect:
         serializedVersion: 2
         x: 256
@@ -1256,8 +1256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b218ccab0dc0c6b47b169f4d12d009c2
-      internalID: -702634411
+      spriteID: 3a8415c18fe0a9f46b205f795829b9cd
+      internalID: -1902901692
       vertices: []
       indices: 
       edges: []
@@ -1273,60 +1273,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DragonKnight_Alt_2: -675588369
-      DragonKnight_Alt_17: -498387885
-      DragonKnight_Alt_34: 1137829910
-      DragonKnight_Alt_48: -1504946273
-      DragonKnight_Alt_1: -972764953
-      DragonKnight_Alt_42: -313844032
-      DragonKnight_Alt_51: 850297755
-      DragonKnight_Alt_23: -1475103547
-      DragonKnight_Alt_31: 1946587023
-      DragonKnight_Alt_30: -1701945371
-      DragonKnight_Alt_24: -1449126628
-      DragonKnight_Alt_20: -1653352807
-      DragonKnight_Alt_5: 73647764
-      DragonKnight_Alt_18: -1696693192
-      DragonKnight_Alt_50: 367607783
-      DragonKnight_Alt_11: -1913662628
-      DragonKnight_Alt_26: 74751888
-      DragonKnight_Alt_41: 354759137
-      DragonKnight_Alt_13: -288487264
-      DragonKnight_Alt_40: -239669821
-      DragonKnight_Alt_16: -1129809803
-      DragonKnight_Alt_12: -1803773956
-      DragonKnight_Alt_19: -1401588496
-      DragonKnight_Alt_33: -235824972
-      DragonKnight_Alt_45: 482431115
-      DragonKnight_Alt_52: 1047745764
-      DragonKnight_Alt_46: -2113537367
-      DragonKnight_Alt_32: -2004960883
-      DragonKnight_Alt_28: 953155387
-      DragonKnight_Alt_29: -607847444
-      DragonKnight_Alt_4: -119121101
-      DragonKnight_Alt_7: 254002868
-      DragonKnight_Alt_38: 1262847220
-      DragonKnight_Alt_0: 743424996
-      DragonKnight_Alt_43: 1046130029
-      DragonKnight_Alt_8: 1007979855
-      DragonKnight_Alt_14: 1531262978
-      DragonKnight_Alt_9: -2053078501
-      DragonKnight_Alt_22: 885415876
-      DragonKnight_Alt_49: 797318283
-      DragonKnight_Alt_35: -1058663464
-      DragonKnight_Alt_53: -702634411
-      DragonKnight_Alt_47: 1687394443
-      DragonKnight_Alt_3: 901332799
-      DragonKnight_Alt_25: -1655207264
-      DragonKnight_Alt_15: 1610935569
-      DragonKnight_Alt_44: 2072259205
-      DragonKnight_Alt_37: -1040058537
-      DragonKnight_Alt_21: 2069543371
-      DragonKnight_Alt_27: -2122939773
-      DragonKnight_Alt_10: -1571571397
-      DragonKnight_Alt_6: -1203905910
-      DragonKnight_Alt_39: 1365294102
-      DragonKnight_Alt_36: 1112682883
+      SS_Guardian_Alt_35: -843651022
+      SS_Guardian_Alt_44: 250160233
+      SS_Guardian_Alt_36: 1245954776
+      SS_Guardian_Alt_42: -1257426193
+      SS_Guardian_Alt_19: 836397390
+      SS_Guardian_Alt_27: -1944521669
+      SS_Guardian_Alt_41: -1558322983
+      SS_Guardian_Alt_21: 218087841
+      SS_Guardian_Alt_26: -1104829446
+      SS_Guardian_Alt_28: -954888419
+      SS_Guardian_Alt_17: 1968237830
+      SS_Guardian_Alt_46: 605429962
+      SS_Guardian_Alt_30: 135100616
+      SS_Guardian_Alt_29: 256316235
+      SS_Guardian_Alt_53: -1902901692
+      SS_Guardian_Alt_45: -1996805421
+      SS_Guardian_Alt_43: 690196180
+      SS_Guardian_Alt_52: 1704801536
+      SS_Guardian_Alt_11: -886222342
+      SS_Guardian_Alt_39: -788321941
+      SS_Guardian_Alt_13: -1222624668
+      SS_Guardian_Alt_18: -1610059125
+      SS_Guardian_Alt_14: 1808856635
+      SS_Guardian_Alt_10: 1980449655
+      SS_Guardian_Alt_23: -373801115
+      SS_Guardian_Alt_32: 14778734
+      SS_Guardian_Alt_4: -131449492
+      SS_Guardian_Alt_49: -1407950102
+      SS_Guardian_Alt_12: -1374531948
+      SS_Guardian_Alt_5: -41512003
+      SS_Guardian_Alt_47: 826592393
+      SS_Guardian_Alt_38: 1191341906
+      SS_Guardian_Alt_15: 842056354
+      SS_Guardian_Alt_51: -1765004166
+      SS_Guardian_Alt_16: -1060036531
+      SS_Guardian_Alt_2: -1168003321
+      SS_Guardian_Alt_50: 130624343
+      SS_Guardian_Alt_9: -1239623461
+      SS_Guardian_Alt_40: -964222008
+      SS_Guardian_Alt_20: -772992621
+      SS_Guardian_Alt_24: -1678771662
+      SS_Guardian_Alt_48: -896064971
+      SS_Guardian_Alt_1: 1709645810
+      SS_Guardian_Alt_25: 574958406
+      SS_Guardian_Alt_37: 2008231854
+      SS_Guardian_Alt_0: 1855034382
+      SS_Guardian_Alt_31: -1759691820
+      SS_Guardian_Alt_8: 1848797939
+      SS_Guardian_Alt_6: -1541848915
+      SS_Guardian_Alt_34: 2038698426
+      SS_Guardian_Alt_22: 172597397
+      SS_Guardian_Alt_3: 111658152
+      SS_Guardian_Alt_33: -891060906
+      SS_Guardian_Alt_7: -1429502220
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
