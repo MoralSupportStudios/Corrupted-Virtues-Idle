@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4679366249024910019}
   - component: {fileID: 2669885226734514574}
   m_Layer: 0
-  m_Name: Region8(SpriteMissing)
+  m_Name: 8-Tapenoteia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,6 +47,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: 9ad2fa13b4eab3d49af318b896fed895, type: 3}
   - {fileID: 21300000, guid: cfd52b64290011041a12c2d29ca762d6, type: 3}
+  - {fileID: 21300000, guid: c8eefae0f0507ae41931c1d268a1216e, type: 3}
   - {fileID: 21300000, guid: 1ebdac7dd3d9d334bbbec681010c6502, type: 3}
   - {fileID: 21300000, guid: 529fa5e0e7dffad46a84644ca9ab2230, type: 3}
   - {fileID: 21300000, guid: 2417b055ec522eb439c0878d947cd248, type: 3}
@@ -57,3 +58,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a022f6a8559ca9d48a3ece4bbef26d5e, type: 3}
   - {fileID: 21300000, guid: e70447d8d798c13469090d1dc277c250, type: 3}
   - {fileID: 21300000, guid: 6779a8dfb20d2484690d8e37e8b728de, type: 3}
+  background: {fileID: 21300000, guid: 5eff9be6b13214941a618fbb3456eaab, type: 3}

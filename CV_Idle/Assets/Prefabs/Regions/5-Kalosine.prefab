@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2306880342574745862}
   - component: {fileID: 2192867550764155384}
   m_Layer: 0
-  m_Name: Region5
+  m_Name: 5-Kalosine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,3 +58,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ad51cef43bff54a4285d5939f5397cdd, type: 3}
   - {fileID: 21300000, guid: 80a6b4b6fccbde4439576050cf0ff2fe, type: 3}
   - {fileID: 21300000, guid: 7529969eab5aa894f9e3867f8d57c6ba, type: 3}
+  background: {fileID: 21300000, guid: 0694e96b2e978474f9684ab59213268a, type: 3}

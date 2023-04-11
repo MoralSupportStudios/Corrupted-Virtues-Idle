@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8442124255831091237}
   - component: {fileID: 679410052897013108}
   m_Layer: 0
-  m_Name: Region4
+  m_Name: 4-Epimony
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,3 +58,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 13b4678c8dfe5774ba92b1ece644368e, type: 3}
   - {fileID: 21300000, guid: cc4c6c3b515a61f429be1c78508f87c8, type: 3}
   - {fileID: 21300000, guid: c35a961282902bf418aaf573b9b0a544, type: 3}
+  background: {fileID: 21300000, guid: b364987d2a870ce48ad16f84757ec947, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4036669557358646383}
   - component: {fileID: 3909756100838477567}
   m_Layer: 0
-  m_Name: Region6
+  m_Name: 6-Filanthropia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,3 +58,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cf228e5a957c9fc4fa44c68cd2b6ca7e, type: 3}
   - {fileID: 21300000, guid: 369498b78949a474da0068a82018a182, type: 3}
   - {fileID: 21300000, guid: 9b6c112b18b7c7c4a91dde3dff37553b, type: 3}
+  background: {fileID: 21300000, guid: 986929da1ff6a374c9c0e96561e2d4fe, type: 3}

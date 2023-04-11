@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d76c9ec76b40b4ba6a713268f631df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 10000
   attackInterval: 1
 --- !u!212 &3830634034188710821
 SpriteRenderer:

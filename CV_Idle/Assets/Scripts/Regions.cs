@@ -5,4 +5,5 @@ using UnityEngine;
 public class Regions : MonoBehaviour
 {
     public List<Sprite> sprites;
+    public Sprite background;
 }

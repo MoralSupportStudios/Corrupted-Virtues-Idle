@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 739749313370510683}
   - component: {fileID: 1312965152971903604}
   m_Layer: 0
-  m_Name: Region2
+  m_Name: 2-Enkrateia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8139401182241341781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5893498, y: 0.31531486, z: -9.931686}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -57,3 +57,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1951d62cf8172784ebf6c744a6fd344b, type: 3}
   - {fileID: 21300000, guid: e6d8557818dac7d47a407685a4fbc52b, type: 3}
   - {fileID: 21300000, guid: bb5d8fd25083f0343818472799b0881c, type: 3}
+  background: {fileID: 21300000, guid: 8f49010711ba4bd448141619f8509c22, type: 3}

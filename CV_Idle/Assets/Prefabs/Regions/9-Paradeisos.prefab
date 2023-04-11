@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8620095447431518321}
   - component: {fileID: 8787642150947802053}
   m_Layer: 0
-  m_Name: Region9
+  m_Name: 9-Paradeisos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,3 +60,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 505bf5715198abf4299f5ca6cef7a053, type: 3}
   - {fileID: 21300000, guid: f6ccdb6af1d9c9e46b08640f8816b713, type: 3}
   - {fileID: 21300000, guid: a10ac272f685512428040a681f91257a, type: 3}
+  background: {fileID: 21300000, guid: 0694e96b2e978474f9684ab59213268a, type: 3}

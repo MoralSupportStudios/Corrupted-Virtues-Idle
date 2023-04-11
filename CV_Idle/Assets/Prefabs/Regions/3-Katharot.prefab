@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2877728941447827383}
   - component: {fileID: 4581066770798430360}
   m_Layer: 0
-  m_Name: Region3
+  m_Name: 3-Katharot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6728192495109397433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5893498, y: 0.31531486, z: -9.931686}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58,3 +58,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: bfdb3a87fb7d83845ae980af7f6e34ad, type: 3}
   - {fileID: 21300000, guid: ddb9be4eb995c3342a33d2ac822a210e, type: 3}
   - {fileID: 21300000, guid: 8ed03739063f30e45bbb117f2302a841, type: 3}
+  background: {fileID: 21300000, guid: 3d552651b575f074aa9f0a9d3dfcedb9, type: 3}

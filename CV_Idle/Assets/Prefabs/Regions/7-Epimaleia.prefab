@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4720184962474856205}
   - component: {fileID: 3765806379333418935}
   m_Layer: 0
-  m_Name: Region7
+  m_Name: 7-Epimaleia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,3 +58,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1c2a2549e607ce3418d6b614604e58d1, type: 3}
   - {fileID: 21300000, guid: a080f82ec5434a346a88b0019686c25e, type: 3}
   - {fileID: 21300000, guid: 2120bce67456d9f47b8052fd78076ce1, type: 3}
+  background: {fileID: 21300000, guid: 9f79ce2631fa6d147bbb9b8a95470e22, type: 3}
