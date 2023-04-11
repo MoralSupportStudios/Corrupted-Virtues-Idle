@@ -2,29 +2,29 @@
 using System;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
-{
-    public int health = 100;
-    public event Action OnEnemyDeath;
-
-    public void TakeDamage(int damage)
+    public class Enemy : MonoBehaviour
     {
-        health -= damage;
-        if (health <= 0)
+        public int health = 100;
+        public event Action OnEnemyDeath;
+
+        public void TakeDamage(int damage)
         {
-            Die();
+            health -= damage;
+            if (health <= 0)
+            {
+                Die();
+            }
+        }
+
+        private void Die()
+        {
+            // Handle the enemy's death, e.g. play animation
+            Debug.Log("Enemy died!");
+
+            // Notify GameManager that the enemy has died
+            OnEnemyDeath?.Invoke();
+
+            // Destroy the enemy game object
+            Destroy(gameObject);
         }
     }
-
-    private void Die()
-    {
-        // Handle the enemy's death, e.g. play animation
-        Debug.Log("Enemy died!");
-
-        // Notify GameManager that the enemy has died
-        OnEnemyDeath?.Invoke();
-
-        // Destroy the enemy game object
-        Destroy(gameObject);
-    }
-}

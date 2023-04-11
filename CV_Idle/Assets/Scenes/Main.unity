@@ -154,6 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hero: {fileID: 2966536729528580373, guid: c52c056e3cda4d0479022f52d92aef39, type: 3}
   enemyPrefab: {fileID: 9111837921566786423, guid: ec4691fb9c9aae7469ebbcd81a8dcd6d, type: 3}
+  StageCounter: {fileID: 1659398348}
+  VirtuePoints: {fileID: 581671476}
 --- !u!4 &455257022
 Transform:
   m_ObjectHideFlags: 0
