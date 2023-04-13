@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         }
 
         //update UI
-        if (round == 0)
+        if (round == 0 || (round == 0 && stage == 0))
         {
             StageCounter.text = $"Stage: {stage} Boss {ToRoman(cycle)}";
         }
@@ -103,6 +103,13 @@ public class GameManager : MonoBehaviour
         // Instantiate a new enemy and get its script
         currentEnemy = Instantiate(enemyPrefab);
         enemyScript = currentEnemy.GetComponent<Enemy>();
+
+        // Set the position of the instantiated enemyPrefab
+        currentEnemy.transform.position = new Vector3(5, currentEnemy.transform.position.y, currentEnemy.transform.position.z);
+
+        // Set the scale of the instantiated enemyPrefab
+        currentEnemy.transform.localScale = new Vector3(3, 3, 1);
+
         // Increase the enemy's health
         enemyScript.health += enemyHealthIncrement;
         enemyHealthIncrement += 10;
