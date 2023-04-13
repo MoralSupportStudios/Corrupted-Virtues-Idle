@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
     public int health = 10;
     public event Action OnEnemyDeath;
     public Sprite sprite;
+    public bool isBoss = false;
 
     public void TakeDamage(int damage)
     {

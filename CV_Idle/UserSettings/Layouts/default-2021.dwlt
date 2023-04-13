@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 58
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 556
     width: 1465
     height: 383
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 13}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 65
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 69
+  controlID: 66
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 1102
     height: 556
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 16}
@@ -306,7 +306,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 123
+    ID: 1027
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -373,7 +373,7 @@ MonoBehaviour:
       name: CV_Idle
       fullName: CV_Idle
       resultStatus: 1
-      duration: 0.0691059
+      duration: 0.0177514
       messages: 
       output: 
       stacktrace: 
@@ -389,7 +389,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: U:/Repos/Corrupted-Virtues-Idle/CV_Idle/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.0466196
+      duration: 0.0042773
       messages: 
       output: 
       stacktrace: 
@@ -404,9 +404,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/[Tests][GameManagerTests][suite]
       name: GameManagerTests
       fullName: GameManagerTests
-      resultStatus: 1
-      duration: 0.0450767
-      messages: 
+      resultStatus: 2
+      duration: 0.0524719
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -420,11 +420,17 @@ MonoBehaviour:
       uniqueId: Tests.dll/GameManagerTests/[Tests][GameManagerTests.TestEnemyDeath]
       name: TestEnemyDeath
       fullName: GameManagerTests.TestEnemyDeath
-      resultStatus: 1
-      duration: 0.0274585
-      messages: 
+      resultStatus: 2
+      duration: 0.0338356
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
       output: 
-      stacktrace: 
+      stacktrace: "  at GameManager.SpawnEnemy () [0x000d8] in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Scripts\\GameManager.cs:75
+        \r\n  at GameManager.Start () [0x00012] in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Scripts\\GameManager.cs:35
+        \r\n  at GameManagerTests+<TestEnemyDeath>d__10.MoveNext () [0x00020] in
+        U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Tests\\GameManagerTests.cs:71
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -437,8 +443,46 @@ MonoBehaviour:
       uniqueId: Tests.dll/GameManagerTests/[Tests][GameManagerTests.TestEnemySpawn]
       name: TestEnemySpawn
       fullName: GameManagerTests.TestEnemySpawn
+      resultStatus: 2
+      duration: 0.0062765
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at GameManager.SpawnEnemy () [0x000d8] in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Scripts\\GameManager.cs:75
+        \r\n  at GameManager.Start () [0x00012] in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Scripts\\GameManager.cs:35
+        \r\n  at GameManagerTests+<TestEnemySpawn>d__9.MoveNext () [0x00020] in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Tests\\GameManagerTests.cs:62
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][GameManagerTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/[Tests][UIManagerTests][suite]
+      name: UIManagerTests
+      fullName: UIManagerTests
       resultStatus: 1
-      duration: 0.007049
+      duration: 0.0037679
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: '[Tests][U:/Repos/Corrupted-Virtues-Idle/CV_Idle/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1005
+      uniqueId: Tests.dll/UIManagerTests/[Tests][UIManagerTests.TestUpdateVirtuePointsText]
+      name: TestUpdateVirtuePointsText
+      fullName: UIManagerTests.TestUpdateVirtuePointsText
+      resultStatus: 1
+      duration: 0.0005656
       messages: 
       output: 
       stacktrace: 
@@ -448,26 +492,15 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/[Tests][GameManagerTests][suite]
-    m_ResultText: "TestUIUpdatesForVP (0.008s)\n---\nVirtuePoints text should be
-      updated.\r\n  Expected: \"Virtue Points: 1\"\r\n  But was:  null\n---\nat GameManagerTests+<TestUIUpdatesForVP>d__10.MoveNext
-      () [0x00048] in U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Assets\\Tests\\GameManagerTests.cs:76\r\nat
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
-      U:\\Repos\\Corrupted-Virtues-Idle\\CV_Idle\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46"
-    m_ResultStacktrace: 'at GameManagerTests+<TestUIUpdatesForVP>d__10.MoveNext ()
-      [0x00048] in U:\Repos\Corrupted-Virtues-Idle\CV_Idle\Assets\Tests\GameManagerTests.cs:76
-
-      at
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
-      U:\Repos\Corrupted-Virtues-Idle\CV_Idle\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      parentId: 1004
+      parentUniqueId: Tests.dll/[Tests][UIManagerTests][suite]
+    m_ResultText: TestUpdateVirtuePointsText (0.001s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d1959004
-      m_LastClickedID: 76584401
-      m_ExpandedIDs: 2a2ff2ec752e4eff0a3b1928ffffff7f
+      m_SelectedIDs: 00540704
+      m_LastClickedID: 67589120
+      m_ExpandedIDs: eb0d368a2a2ff2ec752e4eff0a3b1928ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -534,22 +567,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: U:\Repos\Corrupted-Virtues-Idle\CV_Idle
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: 806b0000
-    m_LastClickedID: 27520
-    m_ExpandedIDs: 00000000886400008a6400008c6400008e64000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e6640000
+    m_LastClickedID: 25830
+    m_ExpandedIDs: 00000000e0640000e2640000e4640000e664000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +598,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -577,7 +610,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000886400008a6400008c6400008e640000
+    m_ExpandedIDs: 00000000e0640000e2640000e4640000e6640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -602,8 +635,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: e0610000
+    m_LastClickedInstanceID: 25056
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000086650000026900006c6100006e6100007061000072610000746100006061000064610000a0610000a26100009e610000a4610000a6610000a8610000aa610000ac610000ae610000b0610000b2610000b4610000b6610000b8610000ba610000666100006a6100006861000062610000
     m_RenameOverlay:
@@ -621,7 +654,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -705,9 +738,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 90890000
-      m_LastClickedID: 35216
-      m_ExpandedIDs: b4effeff00f0feffaaf1feff26fbffffb6610000c8610000
+      m_SelectedIDs: e0610000
+      m_LastClickedID: 25056
+      m_ExpandedIDs: 26fbffff08620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1011,9 +1044,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.4265652, y: 3.3476214, z: 90.23759}
+    m_Target: {x: -1.1502084, y: -0.089483015, z: 181.6255}
     speed: 2
-    m_Value: {x: -3.4265652, y: 3.3476214, z: 90.23759}
+    m_Value: {x: -1.1502084, y: -0.089483015, z: 181.6255}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1064,9 +1097,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.863268
+    m_Target: 6.0389094
     speed: 2
-    m_Value: 2.863268
+    m_Value: 6.0389094
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1084,7 +1117,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.23205237, y: 0.4918258, z: -0.13787083, w: -0.8277985}
+  m_LastSceneViewRotation: {x: -0.22839494, y: 0.20468478, z: -0.049181662, w: -0.9505375}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1181,6 +1214,6 @@ MonoBehaviour:
     fitToScreenEnabled: 0
     rotationDegree: 90
     highlightSafeAreaEnabled: 0
-    friendlyName: Samsung Galaxy S10 5G
+    friendlyName: Samsung Galaxy S10+
     networkReachability: 1
     systemLanguage: 10

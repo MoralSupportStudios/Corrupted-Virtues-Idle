@@ -1,7 +1,7 @@
 using System.Collections;
 using NUnit.Framework;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 using UnityEngine.TestTools;
 
 [TestFixture]
@@ -11,6 +11,7 @@ public class GameManagerTests
     private GameObject gameManagerObject;
     private GameObject hero;
     private GameObject enemyPrefab;
+    private UIManager uiManager;
     private TMP_Text StageCounter;
     private TMP_Text VirtuePoints;
 
@@ -27,14 +28,23 @@ public class GameManagerTests
         enemyPrefab = new GameObject();
         enemyPrefab.AddComponent<Enemy>();
 
+        GameObject uiManagerObject = new GameObject();
+        uiManager = uiManagerObject.AddComponent<UIManager>();
+
+        // Set up the UI components
         StageCounter = new GameObject().AddComponent<TextMeshProUGUI>();
         VirtuePoints = new GameObject().AddComponent<TextMeshProUGUI>();
+        uiManager.stageCounter = StageCounter;
+        uiManager.virtuePoints = VirtuePoints;
 
         gameManager.hero = hero;
         gameManager.enemyPrefab = enemyPrefab;
-        gameManager.StageCounter = StageCounter;
-        gameManager.VirtuePoints = VirtuePoints;
+        gameManager.uiManager = uiManager;
+
+        // Set up the UIManager
+        //uiManager.Setup();
     }
+
 
     [TearDown]
     public void Teardown()
@@ -43,8 +53,7 @@ public class GameManagerTests
         Object.DestroyImmediate(gameManagerObject);
         Object.DestroyImmediate(hero);
         Object.DestroyImmediate(enemyPrefab);
-        Object.DestroyImmediate(StageCounter.gameObject);
-        Object.DestroyImmediate(VirtuePoints.gameObject);
+        Object.DestroyImmediate(uiManager.gameObject);
     }
 
     [UnityTest]
@@ -54,7 +63,7 @@ public class GameManagerTests
 
         yield return null;
 
-        Assert.IsNotNull(gameManager.currentEnemy, "Enemy should be spawned at the start.");
+        Assert.IsNotNull(gameManager.CurrentEnemy, "Enemy should be spawned at the start.");
     }
     [UnityTest]
     public IEnumerator TestEnemyDeath()
@@ -65,10 +74,10 @@ public class GameManagerTests
 
         int initialRound = gameManager.round;
         int initialVP = gameManager.VP;
-        GameObject initialEnemy = gameManager.currentEnemy;
+        GameObject initialEnemy = gameManager.CurrentEnemy;
         gameManager.OnEnemyDeath();
 
-        Assert.AreNotEqual(initialEnemy, gameManager.currentEnemy, "A new enemy should be spawned after the previous enemy's death.");
+        Assert.AreNotEqual(initialEnemy, gameManager.CurrentEnemy, "A new enemy should be spawned after the previous enemy's death.");
         Assert.AreEqual(initialRound + 1, gameManager.round, "Round should be incremented after an enemy's death.");
         Assert.AreEqual(initialVP + 1, gameManager.VP, "VP should be incremented after an enemy's death.");
     }
