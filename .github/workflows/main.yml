@@ -1,0 +1,45 @@
+name: Build and Deploy to Google Play
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Unity
+      uses: game-ci/unity-builder@v2
+      with:
+        unityVersion: 2021.3.13f1
+        targetPlatform: Android
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: AndroidAppBundle
+        path: build/Android/AndroidAppBundle.aab
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: AndroidAppBundle
+        path: build/Android
+
+    - name: Deploy to Google Play
+      uses: r0adkll/upload-google-play@v1
+      with:
+        serviceAccountJson: ${{ secrets.GOOGLE_PLAY_API_JSON }}
+        packageName: com.DefaultCompany.com.unity.template.mobile2D
+        releaseFiles: build/Android/AndroidAppBundle.aab
+        track: internal
