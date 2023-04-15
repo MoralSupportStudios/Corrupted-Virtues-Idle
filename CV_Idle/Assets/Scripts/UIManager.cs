@@ -16,10 +16,10 @@ public class UIManager : MonoBehaviour
 
     public void UpdateStageDisplay(bool isBoss, int stage, int round, int cycle)
     {
-        //Adding +1 to displayed stage because we don't them to start at 0
+        //Adding +1 to displayed because we don't them to start at 0
         stageCounter.text = isBoss
             ? $"Stage: {stage + 1} Boss {ToRoman(cycle)}"
-            : $"Stage: {stage + 1}-{round} {ToRoman(cycle)}";
+            : $"Stage: {stage + 1}-{round+1} {ToRoman(cycle)}";
     }
 
     public void UpdateBackgroundImage(Sprite background)

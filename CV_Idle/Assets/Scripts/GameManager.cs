@@ -1,47 +1,52 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject hero;
+    public List<GameObject> heroParty;
     public GameObject enemyPrefab;
     public UIManager uiManager;
 
     public GameObject CurrentEnemy { get; private set; }
-    public Hero heroScript;
-    public Enemy enemyScript;
 
     public List<Regions> regions;
     public List<Sprite> bossSprites;
 
-    public float nextAttackTime = 2f;
+    public GameObject healthBarPrefab;
     public int enemyHealthIncrement = 10;
 
     public int stage = 0;
     public int round = 0;
     public int cycle = 0;
     public int VP = 0;
-
+    private void Awake()
+    {
+        foreach (GameObject hero in heroParty)
+        {
+            // Check if it's time for the current hero to attack
+            hero.GetComponent<Hero>().nextAttackTime = 0;
+            
+        }
+    }
     public void Start()
     {
-        // Get the Hero script
-        heroScript = hero.GetComponent<Hero>();
-
         // Spawn the first enemy
         SpawnEnemy();
     }
 
     void Update()
     {
-        // Check if it's time to attack
-        if (Time.time >= nextAttackTime)
+        // Iterate through the heroParty
+        foreach (GameObject hero in heroParty)
         {
-            heroScript.Attack(enemyScript);
-            nextAttackTime = Time.time + heroScript.attackInterval;
+            // Check if it's time for the current hero to attack
+            if (Time.time >= hero.GetComponent<Hero>().nextAttackTime)
+            {
+                hero.GetComponent<Hero>().Attack(CurrentEnemy.GetComponent<Enemy>());
+
+                // Update the nextAttackTime for the current hero
+                hero.GetComponent<Hero>().nextAttackTime = Time.time + hero.GetComponent<Hero>().attackInterval;
+            }
         }
 
         //update UI
@@ -50,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdateStageDisplay()
     {
-        uiManager.UpdateStageDisplay(enemyScript.isBoss, stage, round, cycle);
+        uiManager.UpdateStageDisplay(CurrentEnemy.GetComponent<Enemy>().isBoss, stage, round, cycle);
 
     }
     public void SpawnEnemy()
@@ -58,7 +63,6 @@ public class GameManager : MonoBehaviour
 
         // Instantiate a new enemy and get its script
         CurrentEnemy = Instantiate(enemyPrefab);
-        enemyScript = CurrentEnemy.GetComponent<Enemy>();
 
         // Set the position of the instantiated enemyPrefab
         CurrentEnemy.transform.position = new Vector3(5, CurrentEnemy.transform.position.y, CurrentEnemy.transform.position.z);
@@ -67,33 +71,45 @@ public class GameManager : MonoBehaviour
         CurrentEnemy.transform.localScale = new Vector3(3, 3, 1);
 
         // Increase the enemy's health
-        enemyScript.health += enemyHealthIncrement;
+        CurrentEnemy.GetComponent<Enemy>().health += enemyHealthIncrement;
+        CurrentEnemy.GetComponent<Enemy>().maxHealth = CurrentEnemy.GetComponent<Enemy>().health;
+
+        // Instantiate a new health bar for the enemy
+        GameObject healthBar = Instantiate(healthBarPrefab);
+        healthBar.transform.SetParent(CurrentEnemy.transform, false);
+
+        // Set the health bar's position above the enemy
+        healthBar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 150);
+
+        // Set the reference to the Enemy component in the EnemyHealthBar script
+        healthBar.GetComponent<EnemyHealthBar>().SetEnemy(CurrentEnemy.GetComponent<Enemy>());
 
         if (round < regions[stage].sprites.Count)  
         {
             uiManager.UpdateBackgroundImage(regions[stage].background);
-            enemyScript.GetComponent<SpriteRenderer>().sprite = regions[stage].sprites[round];
+            CurrentEnemy.GetComponent<Enemy>().GetComponent<SpriteRenderer>().sprite = regions[stage].sprites[round];
+            CurrentEnemy.GetComponent<Enemy>().isBoss = false;
         }
         else
         {
-            enemyScript.GetComponent<SpriteRenderer>().sprite = bossSprites[stage];
-            enemyScript.isBoss = true;
+            CurrentEnemy.GetComponent<Enemy>().GetComponent<SpriteRenderer>().sprite = bossSprites[stage];
+            CurrentEnemy.GetComponent<Enemy>().isBoss = true;
         }
 
         UpdateStageDisplay();
 
         // Subscribe to the enemy's death event
-        enemyScript.OnEnemyDeath += OnEnemyDeath;
+        CurrentEnemy.GetComponent<Enemy>().OnEnemyDeath += OnEnemyDeath;
     }
 
     public void OnEnemyDeath()
     {
         // Unsubscribe from the enemy's death event to prevent memory leaks
-        enemyScript.OnEnemyDeath -= OnEnemyDeath;
+        CurrentEnemy.GetComponent<Enemy>().OnEnemyDeath -= OnEnemyDeath;
 
         enemyHealthIncrement += 10;
 
-        if (round > regions[stage].sprites.Count)
+        if (round > regions[stage].sprites.Count - 1)
         {
             if (stage == regions.Count - 1)
             {

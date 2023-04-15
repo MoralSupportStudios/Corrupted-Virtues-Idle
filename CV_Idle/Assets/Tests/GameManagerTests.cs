@@ -37,7 +37,6 @@ public class GameManagerTests
         uiManager.stageCounter = StageCounter;
         uiManager.virtuePoints = VirtuePoints;
 
-        gameManager.hero = hero;
         gameManager.enemyPrefab = enemyPrefab;
         gameManager.uiManager = uiManager;
 

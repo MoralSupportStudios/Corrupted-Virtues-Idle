@@ -152,11 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0573105c3e22c644a6f72da94f2da09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hero: {fileID: 2966536729528580373, guid: c52c056e3cda4d0479022f52d92aef39, type: 3}
+  heroParty:
+  - {fileID: 2966536729528580373, guid: c52c056e3cda4d0479022f52d92aef39, type: 3}
   enemyPrefab: {fileID: 9111837921566786423, guid: ec4691fb9c9aae7469ebbcd81a8dcd6d, type: 3}
   uiManager: {fileID: 1174748273}
-  heroScript: {fileID: 0}
-  enemyScript: {fileID: 0}
   regions:
   - {fileID: 7131590471167967947, guid: ad5c9cc0e361c134ebd661e9c2dbc911, type: 3}
   - {fileID: 1312965152971903604, guid: e9df8e5516c9a4540ba36495dcd0e937, type: 3}
@@ -177,7 +176,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 20f5c86d90d34534b947db7e724f6ecc, type: 3}
   - {fileID: 21300000, guid: 9feeba40f0b1eff4e90e7f375469f793, type: 3}
   - {fileID: 21300000, guid: db003a89d82e25c41878a2b36c3e0efa, type: 3}
-  nextAttackTime: 0
+  healthBarPrefab: {fileID: 5916536281749924138, guid: 12230469d64fb9047b37c9e45e09aa7a, type: 3}
   enemyHealthIncrement: 10
   stage: 0
   round: 0
