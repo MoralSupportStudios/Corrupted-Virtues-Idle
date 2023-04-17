@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heroParty:
   - {fileID: 2966536729528580373, guid: c52c056e3cda4d0479022f52d92aef39, type: 3}
-  enemyPrefab: {fileID: 9111837921566786423, guid: ec4691fb9c9aae7469ebbcd81a8dcd6d, type: 3}
+  enemyPrefab: {fileID: 1274716969740902321, guid: 6223e148c4853f944aeec5e806440cc8, type: 3}
   uiManager: {fileID: 1174748273}
   regions:
   - {fileID: 7131590471167967947, guid: ad5c9cc0e361c134ebd661e9c2dbc911, type: 3}
@@ -176,12 +176,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 20f5c86d90d34534b947db7e724f6ecc, type: 3}
   - {fileID: 21300000, guid: 9feeba40f0b1eff4e90e7f375469f793, type: 3}
   - {fileID: 21300000, guid: db003a89d82e25c41878a2b36c3e0efa, type: 3}
-  healthBarPrefab: {fileID: 5916536281749924138, guid: 12230469d64fb9047b37c9e45e09aa7a, type: 3}
   enemyHealthIncrement: 10
   stage: 0
   round: 0
   cycle: 0
-  VP: 0
+  virtuePoints: 0
 --- !u!4 &455257022
 Transform:
   m_ObjectHideFlags: 0
@@ -672,7 +671,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &984388958
 Canvas:
   m_ObjectHideFlags: 0
@@ -682,7 +681,7 @@ Canvas:
   m_GameObject: {fileID: 984388955}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 2
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -702,8 +701,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984388955}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.0069444445, y: 0.0069444445, z: 0.0069444445}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 887989649}
@@ -716,8 +715,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 3040, y: 1440}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1174748272
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,9 +746,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0cec4b6200aa9448845e136f21fde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 984388958}
   stageCounter: {fileID: 1659398348}
   virtuePoints: {fileID: 581671476}
   backgroundImage: {fileID: 887989648}
+  healthBarPrefab: {fileID: 4363777736724348372, guid: f6664456381a05740a455930f1f16143, type: 3}
+  enemySpawn: {fileID: 0}
 --- !u!4 &1174748274
 Transform:
   m_ObjectHideFlags: 0

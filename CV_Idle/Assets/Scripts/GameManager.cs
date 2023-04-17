@@ -12,20 +12,22 @@ public class GameManager : MonoBehaviour
     public List<Regions> regions;
     public List<Sprite> bossSprites;
 
-    public GameObject healthBarPrefab;
     public int enemyHealthIncrement = 10;
 
     public int stage = 0;
     public int round = 0;
     public int cycle = 0;
-    public int VP = 0;
-    private void Awake()
+    public int virtuePoints = 0;
+    public void Awake()
+    {
+        InitializeHeroes();
+    }
+
+    public void InitializeHeroes()
     {
         foreach (GameObject hero in heroParty)
         {
-            // Check if it's time for the current hero to attack
             hero.GetComponent<Hero>().nextAttackTime = 0;
-            
         }
     }
     public void Start()
@@ -50,7 +52,7 @@ public class GameManager : MonoBehaviour
         }
 
         //update UI
-        uiManager.UpdateVirtuePointsText(VP);
+        uiManager.UpdateVirtuePointsText(virtuePoints);
     }
 
     public void UpdateStageDisplay()
@@ -63,26 +65,23 @@ public class GameManager : MonoBehaviour
 
         // Instantiate a new enemy and get its script
         CurrentEnemy = Instantiate(enemyPrefab);
-
+        // Set the Canvas reference
+        CurrentEnemy.GetComponent<Enemy>().canvas = uiManager.mainCanvas;
+        // Set the parent of the instantiated enemyPrefab to the EnemiesContainer
+        CurrentEnemy.transform.SetParent(uiManager.enemySpawn, false);
         // Set the position of the instantiated enemyPrefab
-        CurrentEnemy.transform.position = new Vector3(5, CurrentEnemy.transform.position.y, CurrentEnemy.transform.position.z);
+        CurrentEnemy.transform.position = new Vector3(6, CurrentEnemy.transform.position.y, CurrentEnemy.transform.position.z);
 
         // Set the scale of the instantiated enemyPrefab
         CurrentEnemy.transform.localScale = new Vector3(3, 3, 1);
 
+
         // Increase the enemy's health
         CurrentEnemy.GetComponent<Enemy>().health += enemyHealthIncrement;
         CurrentEnemy.GetComponent<Enemy>().maxHealth = CurrentEnemy.GetComponent<Enemy>().health;
+        CurrentEnemy.GetComponent<Enemy>().healthBarPrefab = uiManager.healthBarPrefab;
 
-        // Instantiate a new health bar for the enemy
-        GameObject healthBar = Instantiate(healthBarPrefab);
-        healthBar.transform.SetParent(CurrentEnemy.transform, false);
-
-        // Set the health bar's position above the enemy
-        healthBar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 150);
-
-        // Set the reference to the Enemy component in the EnemyHealthBar script
-        healthBar.GetComponent<EnemyHealthBar>().SetEnemy(CurrentEnemy.GetComponent<Enemy>());
+        CurrentEnemy.GetComponent<Enemy>().CreateHealthBar();
 
         if (round < regions[stage].sprites.Count)  
         {
@@ -127,7 +126,7 @@ public class GameManager : MonoBehaviour
             round++;
         }
 
-        VP++;
+        virtuePoints++;
 
         // Spawn a new enemy
         SpawnEnemy();

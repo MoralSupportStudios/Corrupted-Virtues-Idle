@@ -72,12 +72,12 @@ public class GameManagerTests
         yield return null;
 
         int initialRound = gameManager.round;
-        int initialVP = gameManager.VP;
+        int initialVP = gameManager.virtuePoints;
         GameObject initialEnemy = gameManager.CurrentEnemy;
         gameManager.OnEnemyDeath();
 
         Assert.AreNotEqual(initialEnemy, gameManager.CurrentEnemy, "A new enemy should be spawned after the previous enemy's death.");
         Assert.AreEqual(initialRound + 1, gameManager.round, "Round should be incremented after an enemy's death.");
-        Assert.AreEqual(initialVP + 1, gameManager.VP, "VP should be incremented after an enemy's death.");
+        Assert.AreEqual(initialVP + 1, gameManager.virtuePoints, "VP should be incremented after an enemy's death.");
     }
 }

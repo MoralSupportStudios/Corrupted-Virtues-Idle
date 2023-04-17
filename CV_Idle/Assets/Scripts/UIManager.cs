@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public Canvas mainCanvas;
     public TMP_Text stageCounter;
     public TMP_Text virtuePoints;
     public GameObject backgroundImage;
+    public HealthBar healthBarPrefab;
+    public RectTransform enemySpawn;
 
     public void UpdateVirtuePointsText(int vp)
     {
