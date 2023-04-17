@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     public Canvas canvas;
     public HealthBar healthBarPrefab;
 
-    private HealthBar healthBarInstance;
+    public HealthBar healthBarInstance;
 
     public void CreateHealthBar()
     {
@@ -19,17 +19,13 @@ public class Enemy : MonoBehaviour
 
         healthBarInstance.transform.position = new Vector3(6, 4, healthBarInstance.transform.position.z);
 
-
-        // Initialize the health bar with the max health value
-        healthBarInstance.SetMaxHealth(maxHealth);
+        healthBarInstance.SetHealth(health, maxHealth);
     }
-
 
     public void TakeDamage(int damage)
     {
         health -= damage;
         healthBarInstance.SetHealth(health, maxHealth);
-
 
         if (health <= 0)
         {
@@ -39,19 +35,12 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        // Handle the enemy's death, e.g. play animation
-        Debug.Log("Enemy died!");
-
-        // Notify GameManager that the enemy has died
         OnEnemyDeath?.Invoke();
 
-        // Destroy the health bar instance if it exists
         if (healthBarInstance != null)
         {
             Destroy(healthBarInstance.gameObject);
         }
-
-        // Destroy the enemy game object if it exists
         if (gameObject != null)
         {
             Destroy(gameObject);

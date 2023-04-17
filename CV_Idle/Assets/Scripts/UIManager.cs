@@ -22,13 +22,14 @@ public class UIManager : MonoBehaviour
         //Adding +1 to displayed because we don't them to start at 0
         stageCounter.text = isBoss
             ? $"Stage: {stage + 1} Boss {ToRoman(cycle)}"
-            : $"Stage: {stage + 1}-{round+1} {ToRoman(cycle)}";
+            : $"Stage: {stage + 1}-{round + 1} {ToRoman(cycle)}";
     }
 
     public void UpdateBackgroundImage(Sprite background)
     {
         backgroundImage.GetComponent<Image>().sprite = background;
     }
+
     public static string ToRoman(int number)
     {
         switch (number)

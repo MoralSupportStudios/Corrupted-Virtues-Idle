@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -6,9 +8,10 @@ public class GameManager : MonoBehaviour
     public List<GameObject> heroParty;
     public GameObject enemyPrefab;
     public UIManager uiManager;
-
+    public Transform heroSpawn;
     public GameObject CurrentEnemy { get; private set; }
 
+    public GameObject ShopPanel;
     public List<Regions> regions;
     public List<Sprite> bossSprites;
 
@@ -32,10 +35,29 @@ public class GameManager : MonoBehaviour
     }
     public void Start()
     {
-        // Spawn the first enemy
+        SpawnHeroes();
         SpawnEnemy();
     }
+    public void SpawnHeroes()
+    {
+        Vector2[] heroPositions = new Vector2[] {
+        new Vector2(-8, -1),
+        new Vector2(-7, -1),
+        new Vector2(-6, 0),
+        new Vector2(-7, 1),
+        new Vector2(-8, 1)
+    };
 
+        for (int i = 0; i < heroParty.Count; i++)
+        {
+            GameObject hero = Instantiate(heroParty[i], heroPositions[i], Quaternion.identity);
+            hero.transform.SetParent(heroSpawn, false);
+            heroParty[i] = hero;
+            // Set the scale of the instantiated enemyPrefab
+            hero.transform.localScale = new Vector3(3, 3, 1);
+
+        }
+    }
     void Update()
     {
         // Iterate through the heroParty
@@ -51,7 +73,6 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        //update UI
         uiManager.UpdateVirtuePointsText(virtuePoints);
     }
 
@@ -62,9 +83,10 @@ public class GameManager : MonoBehaviour
     }
     public void SpawnEnemy()
     {
-
+        
         // Instantiate a new enemy and get its script
         CurrentEnemy = Instantiate(enemyPrefab);
+        CurrentEnemy.SetActive(!ShopPanel.activeSelf);
         // Set the Canvas reference
         CurrentEnemy.GetComponent<Enemy>().canvas = uiManager.mainCanvas;
         // Set the parent of the instantiated enemyPrefab to the EnemiesContainer
@@ -82,8 +104,8 @@ public class GameManager : MonoBehaviour
         CurrentEnemy.GetComponent<Enemy>().healthBarPrefab = uiManager.healthBarPrefab;
 
         CurrentEnemy.GetComponent<Enemy>().CreateHealthBar();
-
-        if (round < regions[stage].sprites.Count)  
+        CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!ShopPanel.activeSelf);
+        if (round < regions[stage].sprites.Count)
         {
             uiManager.UpdateBackgroundImage(regions[stage].background);
             CurrentEnemy.GetComponent<Enemy>().GetComponent<SpriteRenderer>().sprite = regions[stage].sprites[round];
@@ -105,8 +127,15 @@ public class GameManager : MonoBehaviour
     {
         // Unsubscribe from the enemy's death event to prevent memory leaks
         CurrentEnemy.GetComponent<Enemy>().OnEnemyDeath -= OnEnemyDeath;
-
-        enemyHealthIncrement += 10;
+        if(CurrentEnemy.GetComponent<Enemy>().isBoss)
+        {
+            enemyHealthIncrement += (int)((100 * Math.Pow(2, stage - 1)) + enemyHealthIncrement + (round * 10));
+        }
+        else
+        {
+            enemyHealthIncrement += (int)((10 * Math.Pow(2, stage - 1)) + enemyHealthIncrement + (round * 10));
+        }
+        
 
         if (round > regions[stage].sprites.Count - 1)
         {

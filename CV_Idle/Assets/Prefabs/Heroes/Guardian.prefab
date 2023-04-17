@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4607279983515837894}
   - component: {fileID: 3830634034188710821}
   m_Layer: 0
-  m_Name: Hero
+  m_Name: Guardian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   attackInterval: 1
+  bust: {fileID: 21300000, guid: bc7e5f1f26f7e4e4bb5b19985004172e, type: 3}
 --- !u!212 &3830634034188710821
 SpriteRenderer:
   m_ObjectHideFlags: 0
