@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -35,29 +33,30 @@ public class GameManager : MonoBehaviour
     }
     public void Start()
     {
-        SpawnHeroes();
-        SpawnEnemy();
-    }
-    public void SpawnHeroes()
-    {
-        Vector2[] heroPositions = new Vector2[] {
-        new Vector2(-8, -1),
-        new Vector2(-7, -1),
-        new Vector2(-6, 0),
-        new Vector2(-7, 1),
-        new Vector2(-8, 1)
-    };
-
         for (int i = 0; i < heroParty.Count; i++)
         {
-            GameObject hero = Instantiate(heroParty[i], heroPositions[i], Quaternion.identity);
-            hero.transform.SetParent(heroSpawn, false);
-            heroParty[i] = hero;
-            // Set the scale of the instantiated enemyPrefab
-            hero.transform.localScale = new Vector3(3, 3, 1);
-
+            SpawnHero(heroParty[i], i);
         }
+        SpawnEnemy();
     }
+
+    public void SpawnHero(GameObject heroPrefab, int heroIndex)
+    {
+        Vector2[] heroPositions = new Vector2[] {
+            new Vector2(-6, 0),
+            new Vector2(-7, -1),
+            new Vector2(-7, 1),
+            new Vector2(-8, -1),
+            new Vector2(-8, 1)
+        };
+
+        GameObject hero = Instantiate(heroPrefab, heroPositions[heroIndex], Quaternion.identity);
+        hero.transform.SetParent(heroSpawn, false);
+        heroParty[heroIndex] = hero;
+        hero.transform.localScale = new Vector3(3, 3, 1);
+    }
+
+
     void Update()
     {
         // Iterate through the heroParty
@@ -83,7 +82,7 @@ public class GameManager : MonoBehaviour
     }
     public void SpawnEnemy()
     {
-        
+
         // Instantiate a new enemy and get its script
         CurrentEnemy = Instantiate(enemyPrefab);
         CurrentEnemy.SetActive(!ShopPanel.activeSelf);
@@ -97,14 +96,6 @@ public class GameManager : MonoBehaviour
         // Set the scale of the instantiated enemyPrefab
         CurrentEnemy.transform.localScale = new Vector3(3, 3, 1);
 
-
-        // Increase the enemy's health
-        CurrentEnemy.GetComponent<Enemy>().health += enemyHealthIncrement;
-        CurrentEnemy.GetComponent<Enemy>().maxHealth = CurrentEnemy.GetComponent<Enemy>().health;
-        CurrentEnemy.GetComponent<Enemy>().healthBarPrefab = uiManager.healthBarPrefab;
-
-        CurrentEnemy.GetComponent<Enemy>().CreateHealthBar();
-        CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!ShopPanel.activeSelf);
         if (round < regions[stage].sprites.Count)
         {
             uiManager.UpdateBackgroundImage(regions[stage].background);
@@ -117,6 +108,16 @@ public class GameManager : MonoBehaviour
             CurrentEnemy.GetComponent<Enemy>().isBoss = true;
         }
 
+        // Increase the enemy's health
+        int healthMultiplier = CurrentEnemy.GetComponent<Enemy>().isBoss ? 100 : 10;
+        enemyHealthIncrement = (int)((healthMultiplier * Mathf.Pow(1 + 0.05f, (round + 1) * (stage + 1) * (cycle + 1))) + 101);
+
+        CurrentEnemy.GetComponent<Enemy>().health = enemyHealthIncrement;
+        CurrentEnemy.GetComponent<Enemy>().maxHealth = CurrentEnemy.GetComponent<Enemy>().health;
+        CurrentEnemy.GetComponent<Enemy>().healthBarPrefab = uiManager.healthBarPrefab;
+
+        CurrentEnemy.GetComponent<Enemy>().CreateHealthBar();
+        CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!ShopPanel.activeSelf);
         UpdateStageDisplay();
 
         // Subscribe to the enemy's death event
@@ -127,15 +128,6 @@ public class GameManager : MonoBehaviour
     {
         // Unsubscribe from the enemy's death event to prevent memory leaks
         CurrentEnemy.GetComponent<Enemy>().OnEnemyDeath -= OnEnemyDeath;
-        if(CurrentEnemy.GetComponent<Enemy>().isBoss)
-        {
-            enemyHealthIncrement += (int)((100 * Math.Pow(2, stage - 1)) + enemyHealthIncrement + (round * 10));
-        }
-        else
-        {
-            enemyHealthIncrement += (int)((10 * Math.Pow(2, stage - 1)) + enemyHealthIncrement + (round * 10));
-        }
-        
 
         if (round > regions[stage].sprites.Count - 1)
         {
@@ -157,7 +149,6 @@ public class GameManager : MonoBehaviour
 
         virtuePoints++;
 
-        // Spawn a new enemy
         SpawnEnemy();
     }
 }
