@@ -24,10 +24,14 @@ jobs:
         targetPlatform: Android
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-    
-    - name: Verify .aab file generation
+
+    - name: Find .aab file after build
       run: |
         find . -name "*.aab"
+    - name: Display the directory structure
+      run: |
+        sudo apt-get install tree
+        tree
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
