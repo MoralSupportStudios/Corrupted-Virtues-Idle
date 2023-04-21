@@ -24,6 +24,9 @@ jobs:
         targetPlatform: Android
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+    - name: List files in build/Android directory
+      run: |
+        ls -la build/Android
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
