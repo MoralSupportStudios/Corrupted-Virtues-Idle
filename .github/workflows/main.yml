@@ -29,7 +29,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: AndroidAppBundle
-        path: build/Android/AndroidAppBundle.aab
+        path: build/Android/*.aab
 
   deploy:
     needs: build
