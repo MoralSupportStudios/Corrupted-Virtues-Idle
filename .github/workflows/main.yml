@@ -45,6 +45,10 @@ jobs:
         name: AndroidAppBundle
         path: build/Android
 
+    - name: List files in build/Android directory after download
+      run: |
+        ls -la build/Android
+
     - name: Deploy to Google Play
       uses: r0adkll/upload-google-play@v1
       with:
