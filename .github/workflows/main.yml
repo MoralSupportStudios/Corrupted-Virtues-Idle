@@ -24,15 +24,18 @@ jobs:
         targetPlatform: Android
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-    - name: List files in build/Android directory
+    
+    - name: Verify .aab file generation
       run: |
-        ls -la build/Android
+        find . -name "*.aab"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: AndroidAppBundle
-        path: build/Android/*.aab
+        path: |
+          build/Android/*.aab
+          build/Android/**/**/*.aab
 
   deploy:
     needs: build
