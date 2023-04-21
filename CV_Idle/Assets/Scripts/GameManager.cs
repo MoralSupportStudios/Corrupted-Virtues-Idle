@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
         }
 
         // Increase the enemy's health
-        int healthMultiplier = CurrentEnemy.GetComponent<Enemy>().isBoss ? 100 : 10;
+        int healthMultiplier = CurrentEnemy.GetComponent<Enemy>().isBoss ? 11 : 10;
         enemyHealthIncrement = (int)((healthMultiplier * Mathf.Pow(1 + 0.05f, (round + 1) * (stage + 1) * (cycle + 1))) + 101);
 
         CurrentEnemy.GetComponent<Enemy>().health = enemyHealthIncrement;
@@ -147,7 +147,7 @@ public class GameManager : MonoBehaviour
             round++;
         }
 
-        virtuePoints++;
+        virtuePoints += 3;
 
         SpawnEnemy();
     }
