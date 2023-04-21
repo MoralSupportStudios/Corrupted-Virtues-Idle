@@ -17,18 +17,13 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Activate Unity license
-      uses: game-ci/unity-activate@v2
-      with:
-        personal: true
-        githubToken: ${{ secrets.GITHUB_TOKEN }}
-        license: ${{ secrets.UNITY_LICENSE }}
-
     - name: Set up Unity
       uses: game-ci/unity-builder@v2
       with:
         unityVersion: 2021.3.13f1
         targetPlatform: Android
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
