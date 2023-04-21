@@ -50,5 +50,5 @@ jobs:
       with:
         serviceAccountJson: ${{ secrets.GOOGLE_PLAY_API_JSON }}
         packageName: com.DefaultCompany.com.unity.template.mobile2D
-        releaseFiles: build/Android/AndroidAppBundle.aab
+        releaseFiles: build/Android/*.aab
         track: internal
