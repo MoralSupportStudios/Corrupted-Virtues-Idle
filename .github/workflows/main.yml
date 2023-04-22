@@ -21,19 +21,13 @@ jobs:
         projectPath: '.' # Replace 'workingDirectory' with 'projectPath'
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-
-    - name: Find .aab file after build
-      id: find_aab
-      run: |
-        AAB_PATH=$(find . -name "*.aab")
-        echo "AAB_PATH=$AAB_PATH" >> $GITHUB_ENV
-
-    - name: Upload artifact
+    - name: Upload Android App Bundle
       uses: actions/upload-artifact@v2
       with:
         name: AndroidAppBundle
-        path: ${{ env.AAB_PATH }}
+        path: U:\Game Builds\CorruptedVirtuesIdle\CV_Idle.aab
         if-no-files-found: error
+
 
   deploy:
     needs: build
