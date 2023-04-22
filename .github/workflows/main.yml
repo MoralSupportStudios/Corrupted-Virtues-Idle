@@ -22,25 +22,22 @@ jobs:
       with:
         unityVersion: 2021.3.13f1
         targetPlatform: Android
-        workingDirectory: '.' # Add this line
+        workingDirectory: '.'
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
     - name: Find .aab file after build
+      id: find_aab
       run: |
         AAB_PATH=$(find . -name "*.aab")
-        echo "AAB_PATH=$AAB_PATH" >> $GITHUB_ENV
-    - name: Display the directory structure
-      run: |
-        sudo apt-get install tree
-        tree
+        echo "::set-output name=aab_path::$AAB_PATH"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: AndroidAppBundle
-        path: ${{ env.AAB_PATH }}
-      if-no-files-found: error
+        path: ${{ steps.find_aab.outputs.aab_path }}
+        if-no-files-found: error
 
   deploy:
     needs: build
@@ -52,10 +49,6 @@ jobs:
       with:
         name: AndroidAppBundle
         path: build/Android
-
-    - name: List files in build/Android directory after download
-      run: |
-        ls -la build/Android
 
     - name: Deploy to Google Play
       uses: r0adkll/upload-google-play@v1
