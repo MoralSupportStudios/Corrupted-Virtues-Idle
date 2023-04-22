@@ -1,52 +1,98 @@
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
 
 public class ShopManager : MonoBehaviour
 {
-    // UI elements
-    public GameObject shopPanel;
-    public Button closeButton;
-    public Transform heroListContent;
-    public GameObject heroItemPrefab;
-
-    // References
     public GameManager gameManager;
+    public TMP_Text virtuePointsText;
+    public GameObject heroPanelPrefab;
+    public Transform heroPanelsContainer;
+    public List<GameObject> availableHeroes;
 
-    // Initialization
-    void Start()
+    public int damageUpgradeCost = 5;
+    public int attackIntervalUpgradeCost = 10;
+    public int heroPurchaseCost = 100;
+
+    private List<GameObject> heroPanels = new List<GameObject>();
+
+    private void Start()
     {
-        // Set up button event listeners
-        closeButton.onClick.AddListener(() => CloseShop());
-
-        // Populate the shop with available heroes
-        PopulateHeroList();
+        CreateHeroPanels();
     }
 
-    // Populate the shop with available heroes
-    void PopulateHeroList()
+    private void Update()
     {
-        //// Loop through the available heroes from the game manager
-        //foreach (HeroData heroData in gameManager.availableHeroes)
-        //{
-        //    // Instantiate a new hero item prefab and add it to the hero list content
-        //    GameObject heroItem = Instantiate(heroItemPrefab, heroListContent);
-        //    HeroItem heroItemScript = heroItem.GetComponent<HeroItem>();
-
-        //    // Set up the hero item UI and data
-        //    heroItemScript.SetupHeroItem(heroData, gameManager);
-        //}
+        virtuePointsText.text = $"VP: {gameManager.virtuePoints}";
     }
 
-    // Open the shop
-    public void OpenShop()
+    public void ToggleShop()
     {
-        shopPanel.SetActive(true);
+        gameObject.SetActive(!gameObject.activeSelf);
+
+        gameManager.CurrentEnemy.SetActive(!gameObject.activeSelf);
+        gameManager.CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!gameObject.activeSelf);
+
+        ToggleHero();
     }
 
-    // Close the shop
-    public void CloseShop()
+    private void ToggleHero()
     {
-        shopPanel.SetActive(false);
+        foreach (GameObject hero in gameManager.heroParty)
+        {
+            hero.SetActive(!gameObject.activeSelf);
+        }
     }
+
+    private void CreateHeroPanels()
+    {
+        for (int i = 0; i < availableHeroes.Count; i++)
+        {
+            GameObject panel = Instantiate(heroPanelPrefab, heroPanelsContainer);
+            panel.GetComponent<HeroPanel>().Initialize(i, this);
+            heroPanels.Add(panel);
+        }
+    }
+
+    public void IncreaseDamage(int heroIndex)
+    {
+        Hero selectedHero = gameManager.heroParty[heroIndex].GetComponent<Hero>();
+
+        if (gameManager.virtuePoints >= damageUpgradeCost)
+        {
+            selectedHero.damage += 10;
+            gameManager.virtuePoints -= damageUpgradeCost;
+        }
+    }
+
+    public void DecreaseAttackInterval(int heroIndex)
+    {
+        Hero selectedHero = gameManager.heroParty[heroIndex].GetComponent<Hero>();
+
+        if (gameManager.virtuePoints >= attackIntervalUpgradeCost && selectedHero.attackInterval > 0.1f)
+        {
+            selectedHero.attackInterval -= 0.1f;
+            gameManager.virtuePoints -= attackIntervalUpgradeCost;
+        }
+    }
+
+
+    public void PurchaseHero(int heroIndex, HeroPanel heroPanel)
+    {
+        if (gameManager.virtuePoints >= heroPurchaseCost)
+        {
+            GameObject hero = availableHeroes[heroIndex];
+            if (!gameManager.heroParty.Exists(h => h.name.StartsWith(hero.name)))
+            {
+                gameManager.heroParty.Add(hero);
+                gameManager.virtuePoints -= heroPurchaseCost;
+
+                heroPanel.Initialize(heroIndex, this);
+
+                gameManager.SpawnHero(hero, gameManager.heroParty.Count - 1);
+                ToggleHero();
+            }
+        }
+    }
+
 }

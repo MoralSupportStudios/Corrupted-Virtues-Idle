@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1917016442247032763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4720184962474856205}
+  - component: {fileID: 3765806379333418935}
+  m_Layer: 0
+  m_Name: 7-Epimaleia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4720184962474856205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917016442247032763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3765806379333418935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917016442247032763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3f88457b9fb9c47834a45e2e04ab85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 167ef75292b2e3c4394e2d59005b6f6e, type: 3}
+  - {fileID: 21300000, guid: bf27850c745b8a5408074ac8953758f3, type: 3}
+  - {fileID: 21300000, guid: 4bb2487bb30b9f6449605e0cae5b2697, type: 3}
+  - {fileID: 21300000, guid: b3810b3f67d14424cbf5e7bd617846e1, type: 3}
+  - {fileID: 21300000, guid: ed091d4ea573d67409967fd2f277c3af, type: 3}
+  - {fileID: 21300000, guid: 356dca957b922d24192f49987a4e4962, type: 3}
+  - {fileID: 21300000, guid: c1cc28e82a8d1bc4291321b0d507f5bd, type: 3}
+  - {fileID: 21300000, guid: 1ea1427948b123d4aa7d6c3a40411568, type: 3}
+  - {fileID: 21300000, guid: e90f9d0968f453b4688e73c405508c6f, type: 3}
+  - {fileID: 21300000, guid: 8e5c273a36478bf42a34ee1d3954a959, type: 3}
+  - {fileID: 21300000, guid: 1c2a2549e607ce3418d6b614604e58d1, type: 3}
+  - {fileID: 21300000, guid: a080f82ec5434a346a88b0019686c25e, type: 3}
+  - {fileID: 21300000, guid: 2120bce67456d9f47b8052fd78076ce1, type: 3}
+  background: {fileID: 21300000, guid: 9f79ce2631fa6d147bbb9b8a95470e22, type: 3}
