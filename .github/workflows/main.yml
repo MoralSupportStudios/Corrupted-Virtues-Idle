@@ -28,7 +28,8 @@ jobs:
 
     - name: Find .aab file after build
       run: |
-        find . -name "*.aab"
+        AAB_PATH=$(find . -name "*.aab")
+        echo "AAB_PATH=$AAB_PATH" >> $GITHUB_ENV
     - name: Display the directory structure
       run: |
         sudo apt-get install tree
@@ -38,9 +39,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: AndroidAppBundle
-        path: |
-          build/Android/*.aab
-          build/Android/**/**/*.aab
+        path: ${{ env.AAB_PATH }}
 
   deploy:
     needs: build
