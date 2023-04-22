@@ -21,13 +21,30 @@ jobs:
         projectPath: '.' # Replace 'workingDirectory' with 'projectPath'
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-    - name: Upload Android App Bundle
+
+    - name: Build Android AppBundle
+      run: |
+        mkdir -p Build/Android
+        unity-editor \
+          -batchmode \
+          -nographics \
+          -silent-crashes \
+          -quit \
+          -logFile \
+          -projectPath . \
+          -executeMethod BuildCommand.PerformBuild \
+          -buildTarget android \
+          -customBuildTargetName "android" \
+          -customBuildName "CV_Idle" \
+          -customBuildPath "Build/Android/CV_Idle.aab" \
+          -androidVersionCode ${{ github.run_number }}
+
+    - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: AndroidAppBundle
-        path: U:\Game Builds\CorruptedVirtuesIdle\CV_Idle.aab
+        path: Build/Android/CV_Idle.aab
         if-no-files-found: error
-
 
   deploy:
     needs: build
