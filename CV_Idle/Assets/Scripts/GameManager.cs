@@ -54,6 +54,9 @@ public class GameManager : MonoBehaviour
         hero.transform.SetParent(heroSpawn, false);
         heroParty[heroIndex] = hero;
         hero.transform.localScale = new Vector3(3, 3, 1);
+        uiManager.CreateAbilityButton(hero.GetComponent<Hero>().abilityButtonPrefab, hero.GetComponent<Hero>(), this, heroIndex);
+
+
     }
 
 

@@ -42,6 +42,7 @@ public class ShopManager : MonoBehaviour
         {
             hero.SetActive(!gameObject.activeSelf);
         }
+        gameManager.uiManager.abilityButtonsContainer.gameObject.SetActive(!gameObject.activeSelf);
     }
 
     private void CreateHeroPanels()
