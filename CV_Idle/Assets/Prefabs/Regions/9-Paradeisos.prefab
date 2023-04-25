@@ -61,3 +61,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f6ccdb6af1d9c9e46b08640f8816b713, type: 3}
   - {fileID: 21300000, guid: a10ac272f685512428040a681f91257a, type: 3}
   background: {fileID: 21300000, guid: 0694e96b2e978474f9684ab59213268a, type: 3}
+  bossSprite: {fileID: 21300000, guid: db003a89d82e25c41878a2b36c3e0efa, type: 3}

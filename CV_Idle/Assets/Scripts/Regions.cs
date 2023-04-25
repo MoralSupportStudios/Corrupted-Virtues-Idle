@@ -6,4 +6,5 @@ public class Regions : MonoBehaviour
 {
     public List<Sprite> sprites;
     public Sprite background;
+    public Sprite bossSprite;
 }

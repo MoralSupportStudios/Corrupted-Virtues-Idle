@@ -39,9 +39,9 @@ public class AbilityButton : MonoBehaviour
         if (cooldownTimeLeft <= 0)
         {
             // Activate ability and deal damage
-            if (gameManager.CurrentEnemy != null)
+            if (gameManager.enemyManager.CurrentEnemy != null)
             {
-                gameManager.CurrentEnemy.GetComponent<Enemy>().TakeDamage(abilityDamage);
+                gameManager.enemyManager.CurrentEnemy.GetComponent<Enemy>().TakeDamage(abilityDamage);
             }
 
             // Start cooldown
