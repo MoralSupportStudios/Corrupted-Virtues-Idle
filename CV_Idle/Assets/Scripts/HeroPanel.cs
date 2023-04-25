@@ -13,7 +13,7 @@ public class HeroPanel : MonoBehaviour
     public void Initialize(int heroIndex, ShopManager shopManager)
     {
         GameObject hero = shopManager.availableHeroes[heroIndex];
-        bool isInParty = shopManager.gameManager.heroParty.Exists(h => h.name.StartsWith(hero.name));
+        bool isInParty = shopManager.gameManager.heroManager.heroParty.Exists(h => h.name.StartsWith(hero.name));
 
         heroNameText.text = hero.name;
         heroImage.sprite = hero.GetComponent<Hero>().bust;
@@ -24,7 +24,7 @@ public class HeroPanel : MonoBehaviour
 
         if (isInParty)
         {
-            int partyIndex = shopManager.gameManager.heroParty.FindIndex(h => h.name.StartsWith(hero.name));
+            int partyIndex = shopManager.gameManager.heroManager.heroParty.FindIndex(h => h.name.StartsWith(hero.name));
             increaseDamageButton.onClick.AddListener(() => shopManager.IncreaseDamage(partyIndex));
             decreaseAttackIntervalButton.onClick.AddListener(() => shopManager.DecreaseAttackInterval(partyIndex));
         }
@@ -36,5 +36,4 @@ public class HeroPanel : MonoBehaviour
             });
         }
     }
-
 }

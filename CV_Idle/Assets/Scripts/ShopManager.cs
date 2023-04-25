@@ -30,15 +30,15 @@ public class ShopManager : MonoBehaviour
     {
         gameObject.SetActive(!gameObject.activeSelf);
 
-        gameManager.CurrentEnemy.SetActive(!gameObject.activeSelf);
-        gameManager.CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!gameObject.activeSelf);
+        gameManager.enemyManager.CurrentEnemy.SetActive(!gameObject.activeSelf);
+        gameManager.enemyManager.CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!gameObject.activeSelf);
 
         ToggleHero();
     }
 
     private void ToggleHero()
     {
-        foreach (GameObject hero in gameManager.heroParty)
+        foreach (GameObject hero in gameManager.heroManager.heroParty)
         {
             hero.SetActive(!gameObject.activeSelf);
         }
@@ -57,7 +57,7 @@ public class ShopManager : MonoBehaviour
 
     public void IncreaseDamage(int heroIndex)
     {
-        Hero selectedHero = gameManager.heroParty[heroIndex].GetComponent<Hero>();
+        Hero selectedHero = gameManager.heroManager.heroParty[heroIndex].GetComponent<Hero>();
 
         if (gameManager.virtuePoints >= damageUpgradeCost)
         {
@@ -68,7 +68,7 @@ public class ShopManager : MonoBehaviour
 
     public void DecreaseAttackInterval(int heroIndex)
     {
-        Hero selectedHero = gameManager.heroParty[heroIndex].GetComponent<Hero>();
+        Hero selectedHero = gameManager.heroManager.heroParty[heroIndex].GetComponent<Hero>();
 
         if (gameManager.virtuePoints >= attackIntervalUpgradeCost && selectedHero.attackInterval > 0.1f)
         {
@@ -83,14 +83,14 @@ public class ShopManager : MonoBehaviour
         if (gameManager.virtuePoints >= heroPurchaseCost)
         {
             GameObject hero = availableHeroes[heroIndex];
-            if (!gameManager.heroParty.Exists(h => h.name.StartsWith(hero.name)))
+            if (!gameManager.heroManager.heroParty.Exists(h => h.name.StartsWith(hero.name)))
             {
-                gameManager.heroParty.Add(hero);
+                gameManager.heroManager.heroParty.Add(hero);
                 gameManager.virtuePoints -= heroPurchaseCost;
 
                 heroPanel.Initialize(heroIndex, this);
 
-                gameManager.SpawnHero(hero, gameManager.heroParty.Count - 1);
+                gameManager.heroManager.SpawnHero(hero, gameManager.heroManager.heroParty.Count - 1);
                 ToggleHero();
             }
         }

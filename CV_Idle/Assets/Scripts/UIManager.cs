@@ -12,8 +12,10 @@ public class UIManager : MonoBehaviour
     public HealthBar healthBarPrefab;
     public RectTransform enemySpawn;
     public Transform abilityButtonsContainer;
+    public GameObject ShopPanel;
+    public GameManager gameManager;
 
-    public AbilityButton CreateAbilityButton(GameObject abilityButtonPrefab, Hero hero, GameManager gameManager, int heroIndex)
+    public AbilityButton CreateAbilityButton(GameObject abilityButtonPrefab, Hero hero, int heroIndex)
     {
         // Instantiate the ability button prefab and set its parent to the UI canvas
         AbilityButton abilityButtonInstance = Instantiate(abilityButtonPrefab).GetComponent<AbilityButton>();
@@ -30,8 +32,6 @@ public class UIManager : MonoBehaviour
 
         return abilityButtonInstance;
     }
-
-
 
     public void UpdateVirtuePointsText(int vp)
     {
