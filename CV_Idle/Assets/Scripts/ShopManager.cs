@@ -99,6 +99,8 @@ public class ShopManager : MonoBehaviour
         {
             selectedHero.attackInterval -= 0.1f;
             gameManager.virtuePoints -= attackIntervalUpgradeCost;
+
+            UpdateHeroPanelHeroStat();
         }
     }
 
