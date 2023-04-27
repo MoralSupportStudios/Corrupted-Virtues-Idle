@@ -133,9 +133,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 32
-        height: 32
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 044f9033f841c594db17cd73d2b54a3e
-      internalID: -594394997
+      spriteID: b6295ed3be5332f42a7e4cc18fd55bef
+      internalID: 1437967974
       vertices: []
       indices: 
       edges: []
@@ -153,10 +153,10 @@ TextureImporter:
       name: FighterMale_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
+        x: 96
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe447a7c895a1b5408cf4bb5be6244dd
-      internalID: 1587812248
+      spriteID: 584353b85600bc94590d292be8eb5713
+      internalID: 895303491
       vertices: []
       indices: 
       edges: []
@@ -174,10 +174,10 @@ TextureImporter:
       name: FighterMale_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
+        x: 192
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb111df06490fc4db17d2301d5a118d
-      internalID: 1912946115
+      spriteID: 84d1ac5ba87d53f458b4497f7130080f
+      internalID: -384131420
       vertices: []
       indices: 
       edges: []
@@ -195,10 +195,10 @@ TextureImporter:
       name: FighterMale_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
+        x: 288
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bcdfee3c545244478b71683d0362667
-      internalID: 1184732018
+      spriteID: b963e3ee4e3614d43a0a441a22c9d3f5
+      internalID: -376984434
       vertices: []
       indices: 
       edges: []
@@ -216,10 +216,10 @@ TextureImporter:
       name: FighterMale_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
+        x: 384
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c575c74bf28280f46b8314b5884c4121
-      internalID: -1791216555
+      spriteID: 55464bd7b00a1b84f8f6958a03ac3dd7
+      internalID: -291834039
       vertices: []
       indices: 
       edges: []
@@ -237,10 +237,10 @@ TextureImporter:
       name: FighterMale_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
+        x: 480
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb80343dbf99b7147949da96349deabd
-      internalID: -1867349392
+      spriteID: 9f75a42faa7ff5b4a8b01b7c8ba2c6e9
+      internalID: 1519906701
       vertices: []
       indices: 
       edges: []
@@ -258,10 +258,10 @@ TextureImporter:
       name: FighterMale_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
-        width: 32
-        height: 32
+        x: 576
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 947a5c66f184d3a408300670d492daa8
-      internalID: -984534921
+      spriteID: 3d102ff233cf3b4448e967a077dd0359
+      internalID: -2125742713
       vertices: []
       indices: 
       edges: []
@@ -279,10 +279,10 @@ TextureImporter:
       name: FighterMale_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
-        width: 32
-        height: 32
+        x: 672
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99d3b1f81b523d04e8cf8988ee984402
-      internalID: 243075596
+      spriteID: 74286c4dfec9d634f850c2fbbdc87227
+      internalID: -811456588
       vertices: []
       indices: 
       edges: []
@@ -300,10 +300,10 @@ TextureImporter:
       name: FighterMale_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
-        width: 32
-        height: 32
+        x: 768
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3363d963aab4f5d42aec342d1703cb28
-      internalID: -1325741426
+      spriteID: 001d9ec87dd17a64cb75d86a04eb3f58
+      internalID: 1345855787
       vertices: []
       indices: 
       edges: []
@@ -322,9 +322,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 32
-        height: 32
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a714e31db16c68429d05c4de80a8770
-      internalID: 616549852
+      spriteID: 8041f54d95a788b44bbc1d8bfef03378
+      internalID: -20279078
       vertices: []
       indices: 
       edges: []
@@ -342,10 +342,10 @@ TextureImporter:
       name: FighterMale_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 96
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 495b3df4ff4fad440a6a3fd84945e23a
-      internalID: 70115975
+      spriteID: 8f704bbcc5ded614aa115b2fdd1bae35
+      internalID: -1874367461
       vertices: []
       indices: 
       edges: []
@@ -363,10 +363,10 @@ TextureImporter:
       name: FighterMale_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
+        x: 192
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0edbaf18ce83aac4db10d22f2834bf4a
-      internalID: -958767569
+      spriteID: c3d92cc3cb4c07347877585be3abf555
+      internalID: -560669771
       vertices: []
       indices: 
       edges: []
@@ -384,10 +384,10 @@ TextureImporter:
       name: FighterMale_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
+        x: 288
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,8 +395,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bdc93eec09da7146bb07a6ba06a552c
-      internalID: -798889812
+      spriteID: ca67ca27b930d0c4ba4b98021635ffbe
+      internalID: -390011151
       vertices: []
       indices: 
       edges: []
@@ -405,10 +405,10 @@ TextureImporter:
       name: FighterMale_13
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
+        x: 384
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8c717625d9c254ead2807115728329
-      internalID: -1243112422
+      spriteID: 1fa238edde6536244991cc39da3a03d1
+      internalID: -964624615
       vertices: []
       indices: 
       edges: []
@@ -426,10 +426,10 @@ TextureImporter:
       name: FighterMale_14
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
+        x: 480
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aeb15c0e6af0fc4f971de81dcd5d70b
-      internalID: -1295878149
+      spriteID: b5ef721d99b9b5b40a0f4cc62bbc5468
+      internalID: 684174884
       vertices: []
       indices: 
       edges: []
@@ -447,10 +447,10 @@ TextureImporter:
       name: FighterMale_15
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
+        x: 576
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,8 +458,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eca1776b41e2214fbbc72ac1097c493
-      internalID: -972172188
+      spriteID: 03194efbbd11ff74c822e9a19bae6a03
+      internalID: 959117182
       vertices: []
       indices: 
       edges: []
@@ -468,10 +468,10 @@ TextureImporter:
       name: FighterMale_16
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
-        width: 32
-        height: 32
+        x: 672
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de31d1c738f176f41bfa59d97aa1f4e1
-      internalID: 765768880
+      spriteID: 9ad35c31c8b9bf847a2187550829a957
+      internalID: 1422714874
       vertices: []
       indices: 
       edges: []
@@ -489,10 +489,10 @@ TextureImporter:
       name: FighterMale_17
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 32
-        height: 32
+        x: 768
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,8 +500,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a7d944dc3cdbc46810591ec296b0b9
-      internalID: -1593959067
+      spriteID: e7a6c8e77d746d147a667e7b7ec2aa23
+      internalID: -1530488587
       vertices: []
       indices: 
       edges: []
@@ -511,9 +511,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7512ff9ba8392314a9b004d0cf3c73c6
-      internalID: 1290394615
+      spriteID: 6bc6993bc312fc641bc6e2e35d7f18b3
+      internalID: -1195723526
       vertices: []
       indices: 
       edges: []
@@ -531,10 +531,10 @@ TextureImporter:
       name: FighterMale_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 96
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,8 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 733324913d242ef4c97bcad5533d42f8
-      internalID: 584607457
+      spriteID: f8785f22dd35ca44983bb89c5d72afcd
+      internalID: 1184746134
       vertices: []
       indices: 
       edges: []
@@ -552,10 +552,10 @@ TextureImporter:
       name: FighterMale_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 192
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,8 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4df27d1ab1b87584dbc11bb7ae85eab0
-      internalID: 483988348
+      spriteID: fb8c02ab26bc91b4686f6cd29d151120
+      internalID: 1819286022
       vertices: []
       indices: 
       edges: []
@@ -573,10 +573,10 @@ TextureImporter:
       name: FighterMale_21
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 288
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72d60dbb8b09645439227e911d3c7b5c
-      internalID: 1822519477
+      spriteID: 0381b107f715a474aa88ca018e16f0f8
+      internalID: 1713247933
       vertices: []
       indices: 
       edges: []
@@ -594,10 +594,10 @@ TextureImporter:
       name: FighterMale_22
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
+        x: 384
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,8 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87395de2070df7c42919cefa91ea0cda
-      internalID: 2103986955
+      spriteID: 481ad6446f1852f4fbcaaaa0793f748b
+      internalID: -550273354
       vertices: []
       indices: 
       edges: []
@@ -615,10 +615,10 @@ TextureImporter:
       name: FighterMale_23
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
+        x: 480
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b17ebf350695b143969f2f5397808e4
-      internalID: 2063543730
+      spriteID: dea58730c63f82e41a2990f59a2296cb
+      internalID: 570645289
       vertices: []
       indices: 
       edges: []
@@ -636,10 +636,10 @@ TextureImporter:
       name: FighterMale_24
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
+        x: 576
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,8 +647,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c580caa75f8f7634bba9b7fe6e6b2aae
-      internalID: 1741655616
+      spriteID: 49c3617689dd4b440a2ed309d159e950
+      internalID: -643831743
       vertices: []
       indices: 
       edges: []
@@ -657,10 +657,10 @@ TextureImporter:
       name: FighterMale_25
       rect:
         serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
+        x: 672
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5453cd5b7a48eb44e9c4bcdbcc9cdaa5
-      internalID: 919743740
+      spriteID: 749cc40279523d541bc80043e806ef5a
+      internalID: -954901561
       vertices: []
       indices: 
       edges: []
@@ -678,10 +678,10 @@ TextureImporter:
       name: FighterMale_26
       rect:
         serializedVersion: 2
-        x: 256
-        y: 96
-        width: 32
-        height: 32
+        x: 768
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,8 +689,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 072d5d46f69e8dd418cc06ec5f9dc296
-      internalID: 29183967
+      spriteID: d5ac04523a8b7e442b9210f2667c7300
+      internalID: -781582714
       vertices: []
       indices: 
       edges: []
@@ -700,9 +700,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ede797238de51e142a8ac79c4c2c7c45
-      internalID: -760834672
+      spriteID: a3c481c5e7ae8fc4882645ceccff3548
+      internalID: 1651483720
       vertices: []
       indices: 
       edges: []
@@ -720,10 +720,10 @@ TextureImporter:
       name: FighterMale_28
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 96
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7d8e982b88b94c4fa5f0eeb0d53a86a
-      internalID: -1225794849
+      spriteID: 9495e2883be72ba479374f0ba768b234
+      internalID: 1039890559
       vertices: []
       indices: 
       edges: []
@@ -741,10 +741,10 @@ TextureImporter:
       name: FighterMale_29
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 192
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,8 +752,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797ea7ae21f06a94690874874092ed79
-      internalID: 448922579
+      spriteID: 507625096218607438f345be909ee74e
+      internalID: -705229231
       vertices: []
       indices: 
       edges: []
@@ -762,10 +762,10 @@ TextureImporter:
       name: FighterMale_30
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
+        x: 288
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,8 +773,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ee466785eaae244ea99bbf2efc455d3
-      internalID: -601418905
+      spriteID: de7f61d8c9bb4ee4c87dbc9f730762b0
+      internalID: -1650921778
       vertices: []
       indices: 
       edges: []
@@ -783,10 +783,10 @@ TextureImporter:
       name: FighterMale_31
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
+        x: 384
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33c4db3121b1f4a408e2a3f6ffdb4c5c
-      internalID: -1069624270
+      spriteID: 242d94359b83e3a48a616f9ba1e63ef9
+      internalID: -169796743
       vertices: []
       indices: 
       edges: []
@@ -804,10 +804,10 @@ TextureImporter:
       name: FighterMale_32
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
+        x: 480
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,8 +815,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8e61113626d7041bd118de36e07091
-      internalID: -1690215194
+      spriteID: abae3d9b98828484bb520d2afb37b5b2
+      internalID: -781445877
       vertices: []
       indices: 
       edges: []
@@ -825,10 +825,10 @@ TextureImporter:
       name: FighterMale_33
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 32
-        height: 32
+        x: 576
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,8 +836,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37ed7375dc38df544bc45f6696853b92
-      internalID: -423701689
+      spriteID: ce24f9c5079985e49b21aa94f3c69aef
+      internalID: -1147091746
       vertices: []
       indices: 
       edges: []
@@ -846,10 +846,10 @@ TextureImporter:
       name: FighterMale_34
       rect:
         serializedVersion: 2
-        x: 224
-        y: 64
-        width: 32
-        height: 32
+        x: 672
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -857,8 +857,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64e66600d31b4d54fa5c1add54551efd
-      internalID: 357072541
+      spriteID: 8dc091b56ae514b47ab7e0861c7b1727
+      internalID: -1373914196
       vertices: []
       indices: 
       edges: []
@@ -867,10 +867,10 @@ TextureImporter:
       name: FighterMale_35
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 32
-        height: 32
+        x: 768
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -878,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45acc8767a0b4bc4bb71105e4908879a
-      internalID: 1898994200
+      spriteID: 8eb7159b77050a04d9d5896a99e57325
+      internalID: -2130472369
       vertices: []
       indices: 
       edges: []
@@ -889,9 +889,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,8 +899,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70f0e055d90a84640b59312ee2a7f77d
-      internalID: -249349624
+      spriteID: 83d3d74906eccfc4f89101eda1976df7
+      internalID: -617644687
       vertices: []
       indices: 
       edges: []
@@ -909,10 +909,10 @@ TextureImporter:
       name: FighterMale_37
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 96
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,8 +920,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5acfb00f53377b489aff43f158dff12
-      internalID: -1325887633
+      spriteID: 204aaa7d095e1294096f868ef5007359
+      internalID: -1116798923
       vertices: []
       indices: 
       edges: []
@@ -930,10 +930,10 @@ TextureImporter:
       name: FighterMale_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 192
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -941,8 +941,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 715f352c9a60ea24ba070fd2e3203df2
-      internalID: -807696061
+      spriteID: 062aec863bdbf9746a1a4b99dd9f99e0
+      internalID: 1151000960
       vertices: []
       indices: 
       edges: []
@@ -951,10 +951,10 @@ TextureImporter:
       name: FighterMale_39
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 288
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,8 +962,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2caf266bba9c4c743be409dfc9af2962
-      internalID: -1795220822
+      spriteID: d0d7d2608601c8147a4e9526dd52126f
+      internalID: -1251177281
       vertices: []
       indices: 
       edges: []
@@ -972,10 +972,10 @@ TextureImporter:
       name: FighterMale_40
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
+        x: 384
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -983,8 +983,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8989db01d64169443aeaea2f0293c35b
-      internalID: -1347858582
+      spriteID: 2c32d492f067d754a9025b97575f7a39
+      internalID: -1855382342
       vertices: []
       indices: 
       edges: []
@@ -993,10 +993,10 @@ TextureImporter:
       name: FighterMale_41
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
+        x: 480
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1004,8 +1004,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d803db05b7c51d4fabf6211682463ee
-      internalID: 1693085164
+      spriteID: 57a006acf300ae043a81209bf3838921
+      internalID: -424862994
       vertices: []
       indices: 
       edges: []
@@ -1014,10 +1014,10 @@ TextureImporter:
       name: FighterMale_42
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
-        width: 32
-        height: 32
+        x: 576
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1025,8 +1025,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b48941c8d7a1d544397c0eda6db0902b
-      internalID: 1595705619
+      spriteID: 72a4767409ff7c44fa300c62d0ff8905
+      internalID: 683680973
       vertices: []
       indices: 
       edges: []
@@ -1035,10 +1035,10 @@ TextureImporter:
       name: FighterMale_43
       rect:
         serializedVersion: 2
-        x: 224
-        y: 32
-        width: 32
-        height: 32
+        x: 672
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1046,8 +1046,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5208c22cbad969e478052122c25eca82
-      internalID: 123244461
+      spriteID: b1db385d00e47674db5c915118e8575e
+      internalID: 1168086039
       vertices: []
       indices: 
       edges: []
@@ -1056,10 +1056,10 @@ TextureImporter:
       name: FighterMale_44
       rect:
         serializedVersion: 2
-        x: 256
-        y: 32
-        width: 32
-        height: 32
+        x: 768
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1067,8 +1067,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87cb5d0e83e213241a4da4162cacb8b2
-      internalID: -237731761
+      spriteID: 067aee69f21a2b84e890a8010aeeb876
+      internalID: 29691401
       vertices: []
       indices: 
       edges: []
@@ -1079,8 +1079,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1088,8 +1088,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a34beca435f00d4fbb0b8d47128c172
-      internalID: -330813183
+      spriteID: 9ba65c6a893f00d49a24a056c8391129
+      internalID: 615164988
       vertices: []
       indices: 
       edges: []
@@ -1098,10 +1098,10 @@ TextureImporter:
       name: FighterMale_46
       rect:
         serializedVersion: 2
-        x: 32
+        x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1109,8 +1109,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5157da346dff124fb629181fb32a38d
-      internalID: 1530761691
+      spriteID: 80695beb00b419f439d2f7afa584f738
+      internalID: 1057968837
       vertices: []
       indices: 
       edges: []
@@ -1119,10 +1119,10 @@ TextureImporter:
       name: FighterMale_47
       rect:
         serializedVersion: 2
-        x: 64
+        x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,8 +1130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 330a9926598f7c24bb10fcb231429884
-      internalID: -474349506
+      spriteID: 6fb577af1f4da4a46ada420842d04967
+      internalID: 745646469
       vertices: []
       indices: 
       edges: []
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: FighterMale_48
       rect:
         serializedVersion: 2
-        x: 96
+        x: 288
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1151,8 +1151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667003c90635ac743a6f08af412d177c
-      internalID: -692310587
+      spriteID: c94c07a25c82fd24a9f06b42dbb88401
+      internalID: 639572478
       vertices: []
       indices: 
       edges: []
@@ -1161,10 +1161,10 @@ TextureImporter:
       name: FighterMale_49
       rect:
         serializedVersion: 2
-        x: 128
+        x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,8 +1172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cb1cfec63b76fa41a54657ec1be3e28
-      internalID: 282501735
+      spriteID: 3bb6583d276ee8248adbc9de2a7c7de8
+      internalID: -1960479785
       vertices: []
       indices: 
       edges: []
@@ -1182,10 +1182,10 @@ TextureImporter:
       name: FighterMale_50
       rect:
         serializedVersion: 2
-        x: 160
+        x: 480
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,8 +1193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61ece90b4b719d4dbbbc4431cf369d7
-      internalID: -1850436102
+      spriteID: f935cf80afdb93e45b9e12e7e1f85592
+      internalID: -179733250
       vertices: []
       indices: 
       edges: []
@@ -1203,10 +1203,10 @@ TextureImporter:
       name: FighterMale_51
       rect:
         serializedVersion: 2
-        x: 192
+        x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1214,8 +1214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbfd523a75dd94242a031350027b1442
-      internalID: 318916638
+      spriteID: dafbbc31e147eaa4eb4afb383ea12a05
+      internalID: -15017422
       vertices: []
       indices: 
       edges: []
@@ -1224,10 +1224,10 @@ TextureImporter:
       name: FighterMale_52
       rect:
         serializedVersion: 2
-        x: 224
+        x: 672
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1235,8 +1235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981220611972bec4792da2319baedf7e
-      internalID: 1338218270
+      spriteID: 47f90c1734b22b84b8d741c7ba8e3e14
+      internalID: -1320598757
       vertices: []
       indices: 
       edges: []
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: FighterMale_53
       rect:
         serializedVersion: 2
-        x: 256
+        x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1256,8 +1256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb181ba91153fcc4887c0ba45b2e892b
-      internalID: 1378075315
+      spriteID: c3519e40b4f1fea45bc176bb47c8017b
+      internalID: 506057890
       vertices: []
       indices: 
       edges: []
@@ -1273,60 +1273,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FighterMale_49: 282501735
-      FighterMale_0: -594394997
-      FighterMale_5: -1867349392
-      FighterMale_18: 1290394615
-      FighterMale_45: -330813183
-      FighterMale_16: 765768880
-      FighterMale_11: -958767569
-      FighterMale_35: 1898994200
-      FighterMale_17: -1593959067
-      FighterMale_29: 448922579
-      FighterMale_41: 1693085164
-      FighterMale_4: -1791216555
-      FighterMale_15: -972172188
-      FighterMale_36: -249349624
-      FighterMale_8: -1325741426
-      FighterMale_47: -474349506
-      FighterMale_33: -423701689
-      FighterMale_43: 123244461
-      FighterMale_21: 1822519477
-      FighterMale_48: -692310587
-      FighterMale_13: -1243112422
-      FighterMale_20: 483988348
-      FighterMale_53: 1378075315
-      FighterMale_34: 357072541
-      FighterMale_42: 1595705619
-      FighterMale_1: 1587812248
-      FighterMale_19: 584607457
-      FighterMale_30: -601418905
-      FighterMale_52: 1338218270
-      FighterMale_27: -760834672
-      FighterMale_6: -984534921
-      FighterMale_12: -798889812
-      FighterMale_26: 29183967
-      FighterMale_46: 1530761691
-      FighterMale_25: 919743740
-      FighterMale_7: 243075596
-      FighterMale_14: -1295878149
-      FighterMale_39: -1795220822
-      FighterMale_40: -1347858582
-      FighterMale_28: -1225794849
-      FighterMale_24: 1741655616
-      FighterMale_32: -1690215194
-      FighterMale_31: -1069624270
-      FighterMale_3: 1184732018
-      FighterMale_10: 70115975
-      FighterMale_23: 2063543730
-      FighterMale_22: 2103986955
-      FighterMale_50: -1850436102
-      FighterMale_37: -1325887633
-      FighterMale_51: 318916638
-      FighterMale_38: -807696061
-      FighterMale_44: -237731761
-      FighterMale_9: 616549852
-      FighterMale_2: 1912946115
+      FighterMale_49: -1960479785
+      FighterMale_0: 1437967974
+      FighterMale_5: 1519906701
+      FighterMale_18: -1195723526
+      FighterMale_45: 615164988
+      FighterMale_16: 1422714874
+      FighterMale_11: -560669771
+      FighterMale_35: -2130472369
+      FighterMale_17: -1530488587
+      FighterMale_29: -705229231
+      FighterMale_41: -424862994
+      FighterMale_4: -291834039
+      FighterMale_15: 959117182
+      FighterMale_36: -617644687
+      FighterMale_8: 1345855787
+      FighterMale_47: 745646469
+      FighterMale_33: -1147091746
+      FighterMale_43: 1168086039
+      FighterMale_21: 1713247933
+      FighterMale_48: 639572478
+      FighterMale_13: -964624615
+      FighterMale_20: 1819286022
+      FighterMale_53: 506057890
+      FighterMale_34: -1373914196
+      FighterMale_42: 683680973
+      FighterMale_1: 895303491
+      FighterMale_19: 1184746134
+      FighterMale_30: -1650921778
+      FighterMale_52: -1320598757
+      FighterMale_27: 1651483720
+      FighterMale_6: -2125742713
+      FighterMale_12: -390011151
+      FighterMale_26: -781582714
+      FighterMale_46: 1057968837
+      FighterMale_25: -954901561
+      FighterMale_7: -811456588
+      FighterMale_14: 684174884
+      FighterMale_39: -1251177281
+      FighterMale_40: -1855382342
+      FighterMale_28: 1039890559
+      FighterMale_24: -643831743
+      FighterMale_32: -781445877
+      FighterMale_31: -169796743
+      FighterMale_3: -376984434
+      FighterMale_10: -1874367461
+      FighterMale_23: 570645289
+      FighterMale_22: -550273354
+      FighterMale_50: -179733250
+      FighterMale_37: -1116798923
+      FighterMale_51: -15017422
+      FighterMale_38: 1151000960
+      FighterMale_44: 29691401
+      FighterMale_9: -20279078
+      FighterMale_2: -384131420
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

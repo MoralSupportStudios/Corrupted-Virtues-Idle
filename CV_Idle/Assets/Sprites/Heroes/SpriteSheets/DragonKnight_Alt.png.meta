@@ -133,9 +133,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 32
-        height: 32
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84c3f42d9b2f9ac4aaaf9e9ffe3395f6
-      internalID: 743424996
+      spriteID: 4c28d373c669c7649939e8df65f7c409
+      internalID: -840105093
       vertices: []
       indices: 
       edges: []
@@ -153,10 +153,10 @@ TextureImporter:
       name: DragonKnight_Alt_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
+        x: 96
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc12489a6c1a8df4c9c7e71f2359d512
-      internalID: -972764953
+      spriteID: 473733bb3c4b30f4cbee818b77e8a17b
+      internalID: -1335861524
       vertices: []
       indices: 
       edges: []
@@ -174,10 +174,10 @@ TextureImporter:
       name: DragonKnight_Alt_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
+        x: 192
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86765302b16ef2f48b3f6020ca2fab9b
-      internalID: -675588369
+      spriteID: e345fe4732e13794e9fdfd4b7ecdb2fc
+      internalID: -1652236876
       vertices: []
       indices: 
       edges: []
@@ -195,10 +195,10 @@ TextureImporter:
       name: DragonKnight_Alt_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
+        x: 288
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c6918c92e927044a602d80c277d080
-      internalID: 901332799
+      spriteID: 4f042480106e06247a2168426e82c4bf
+      internalID: 1779348392
       vertices: []
       indices: 
       edges: []
@@ -216,10 +216,10 @@ TextureImporter:
       name: DragonKnight_Alt_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
+        x: 384
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90ce8412ba5f6744fa266b256ee099e0
-      internalID: -119121101
+      spriteID: fb0d54a6a1b10c6429becf3b084cd6d5
+      internalID: -1682614437
       vertices: []
       indices: 
       edges: []
@@ -237,10 +237,10 @@ TextureImporter:
       name: DragonKnight_Alt_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
+        x: 480
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a8f6f181af5ff4d9ce9206ac88b46b
-      internalID: 73647764
+      spriteID: 58dc5551c32457045bdac123f0b02c6e
+      internalID: -1929858701
       vertices: []
       indices: 
       edges: []
@@ -258,10 +258,10 @@ TextureImporter:
       name: DragonKnight_Alt_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
-        width: 32
-        height: 32
+        x: 576
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32e4d26c442662e48ab13b7a9cedd2d9
-      internalID: -1203905910
+      spriteID: 95cc1adbe7b0e0d4eac17158aa6e38f1
+      internalID: -1281695753
       vertices: []
       indices: 
       edges: []
@@ -279,10 +279,10 @@ TextureImporter:
       name: DragonKnight_Alt_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
-        width: 32
-        height: 32
+        x: 672
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66370ac6a2478148ae00e32dc58cdbb
-      internalID: 254002868
+      spriteID: 850a82588eecdc5449483e2d4d13a0c5
+      internalID: -204565216
       vertices: []
       indices: 
       edges: []
@@ -300,10 +300,10 @@ TextureImporter:
       name: DragonKnight_Alt_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
-        width: 32
-        height: 32
+        x: 768
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6888d7c552dab4aaa585ada806521f
-      internalID: 1007979855
+      spriteID: 9b6ebb9a8ead73e4c9d10cc3f220f28d
+      internalID: 1495398814
       vertices: []
       indices: 
       edges: []
@@ -322,9 +322,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 32
-        height: 32
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec79eb36836b5e7468f7967bbaec4c31
-      internalID: -2053078501
+      spriteID: 28c847d661a6e03468a64de10d0955e9
+      internalID: -343999486
       vertices: []
       indices: 
       edges: []
@@ -342,10 +342,10 @@ TextureImporter:
       name: DragonKnight_Alt_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 96
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c43ea43cd6ef144ab3260c169d7114b
-      internalID: -1571571397
+      spriteID: 619136a06f07d8347b59e641a4ab39f8
+      internalID: -2034293319
       vertices: []
       indices: 
       edges: []
@@ -363,10 +363,10 @@ TextureImporter:
       name: DragonKnight_Alt_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
+        x: 192
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb9282971b6840343bba472fd518d7e1
-      internalID: -1913662628
+      spriteID: 922dc067a35ed9947bc59dd6a8efa7cc
+      internalID: 1848945998
       vertices: []
       indices: 
       edges: []
@@ -384,10 +384,10 @@ TextureImporter:
       name: DragonKnight_Alt_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
+        x: 288
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,8 +395,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d27559617069cd84ba4e8f3b54c14d82
-      internalID: -1803773956
+      spriteID: 744fc5c363d53f24fa0e969d4cfbdd61
+      internalID: 53205482
       vertices: []
       indices: 
       edges: []
@@ -405,10 +405,10 @@ TextureImporter:
       name: DragonKnight_Alt_13
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
+        x: 384
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b14a0f35834e96241a0da7c1275a8d69
-      internalID: -288487264
+      spriteID: f9e9f05e49e01f54e9aaf6bd0e450ac0
+      internalID: 600901089
       vertices: []
       indices: 
       edges: []
@@ -426,10 +426,10 @@ TextureImporter:
       name: DragonKnight_Alt_14
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
+        x: 480
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 484c4cc422057e7428838141e63161fe
-      internalID: 1531262978
+      spriteID: e6ebb588c9ac25147a142c910762ef9c
+      internalID: 1805025041
       vertices: []
       indices: 
       edges: []
@@ -447,10 +447,10 @@ TextureImporter:
       name: DragonKnight_Alt_15
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
+        x: 576
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,8 +458,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70c6e3792733b89439d48c84fdc63a09
-      internalID: 1610935569
+      spriteID: 5be1479cd2991d44284b88b1df997a6b
+      internalID: 157571947
       vertices: []
       indices: 
       edges: []
@@ -468,10 +468,10 @@ TextureImporter:
       name: DragonKnight_Alt_16
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
-        width: 32
-        height: 32
+        x: 672
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74494b75a1828314ebef4c6a260a659d
-      internalID: -1129809803
+      spriteID: f4ff5c6e377eebb478dd30e40166fea3
+      internalID: -2048414501
       vertices: []
       indices: 
       edges: []
@@ -489,10 +489,10 @@ TextureImporter:
       name: DragonKnight_Alt_17
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 32
-        height: 32
+        x: 768
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,8 +500,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ce492b2b838cf46b8f581251042dae
-      internalID: -498387885
+      spriteID: 72f9cfb61ded86a429fb7c560ec4bf74
+      internalID: -75586160
       vertices: []
       indices: 
       edges: []
@@ -511,9 +511,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f01c10cffff512409686a64143b2120
-      internalID: -1696693192
+      spriteID: f9f3cc53bd09b6646abb4c5fd3230719
+      internalID: -725284213
       vertices: []
       indices: 
       edges: []
@@ -531,10 +531,10 @@ TextureImporter:
       name: DragonKnight_Alt_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 96
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,8 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c135fd36149b8c45b45fcce2540fbed
-      internalID: -1401588496
+      spriteID: 0f4f6ae3f96415b47aab06f641a26ac5
+      internalID: -692012832
       vertices: []
       indices: 
       edges: []
@@ -552,10 +552,10 @@ TextureImporter:
       name: DragonKnight_Alt_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 192
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,8 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4251ea0090b18ae46b4c84fcada9c808
-      internalID: -1653352807
+      spriteID: cba2f20f4cd99f44a9bda3adfcc29506
+      internalID: -156633787
       vertices: []
       indices: 
       edges: []
@@ -573,10 +573,10 @@ TextureImporter:
       name: DragonKnight_Alt_21
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 288
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb440019efbd4f48aa6e6bb59fbfc27
-      internalID: 2069543371
+      spriteID: a176325b8642a424aa1b05631ae3afeb
+      internalID: -1267615783
       vertices: []
       indices: 
       edges: []
@@ -594,10 +594,10 @@ TextureImporter:
       name: DragonKnight_Alt_22
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
+        x: 384
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,8 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 921cc2132e62f124eb5f39705fae0669
-      internalID: 885415876
+      spriteID: eed85681d3906f44db0540def8ec18fd
+      internalID: -714031515
       vertices: []
       indices: 
       edges: []
@@ -615,10 +615,10 @@ TextureImporter:
       name: DragonKnight_Alt_23
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
+        x: 480
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3736d6cb8be67d488ababb2c0d49c46
-      internalID: -1475103547
+      spriteID: 2d149c726c0450247a04ad3039b7ce92
+      internalID: -732345588
       vertices: []
       indices: 
       edges: []
@@ -636,10 +636,10 @@ TextureImporter:
       name: DragonKnight_Alt_24
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
+        x: 576
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,8 +647,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a968d0d179b663b4ab050eda3eaf0634
-      internalID: -1449126628
+      spriteID: 716394b2cb7c5d146a9ee286ba05aa13
+      internalID: -1346831230
       vertices: []
       indices: 
       edges: []
@@ -657,10 +657,10 @@ TextureImporter:
       name: DragonKnight_Alt_25
       rect:
         serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
+        x: 672
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a74b6574b3f99444a9f8f33dc4c6445
-      internalID: -1655207264
+      spriteID: cd1b7b462b0696a48b3e7ca62c93fab2
+      internalID: -758404252
       vertices: []
       indices: 
       edges: []
@@ -678,10 +678,10 @@ TextureImporter:
       name: DragonKnight_Alt_26
       rect:
         serializedVersion: 2
-        x: 256
-        y: 96
-        width: 32
-        height: 32
+        x: 768
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,8 +689,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec64abc44cc45714b82af453d907be83
-      internalID: 74751888
+      spriteID: 9ed0ef0ebc85c864cac9f615fe6ac884
+      internalID: 958435405
       vertices: []
       indices: 
       edges: []
@@ -700,9 +700,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d7d47464211f6a448cd2ca4e6499dcb
-      internalID: -2122939773
+      spriteID: d4d2d4d56a9ba2341a41f24b037fbf63
+      internalID: 1641755146
       vertices: []
       indices: 
       edges: []
@@ -720,10 +720,10 @@ TextureImporter:
       name: DragonKnight_Alt_28
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 96
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2ba1603347fd34898b44db93c0f838
-      internalID: 953155387
+      spriteID: 60bae9e513ef23a409897f79df65ea86
+      internalID: 1968967034
       vertices: []
       indices: 
       edges: []
@@ -741,10 +741,10 @@ TextureImporter:
       name: DragonKnight_Alt_29
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 192
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,8 +752,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 909e9a3e4ef3f33429dd1e56fec8da88
-      internalID: -607847444
+      spriteID: 0af8f3d740b33ab4cb2033df0d3dd140
+      internalID: 1170047384
       vertices: []
       indices: 
       edges: []
@@ -762,10 +762,10 @@ TextureImporter:
       name: DragonKnight_Alt_30
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
+        x: 288
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,8 +773,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6368c08b3b9a1534bafc9dc9f7fb7d9c
-      internalID: -1701945371
+      spriteID: a47eafcbad781e949b1cba3e08beb074
+      internalID: 1152548237
       vertices: []
       indices: 
       edges: []
@@ -783,10 +783,10 @@ TextureImporter:
       name: DragonKnight_Alt_31
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
+        x: 384
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 962d63a84456e2c489dcbfc0e8c446e5
-      internalID: 1946587023
+      spriteID: 904ebc82026977f46b6336a8f613bffc
+      internalID: -401400748
       vertices: []
       indices: 
       edges: []
@@ -804,10 +804,10 @@ TextureImporter:
       name: DragonKnight_Alt_32
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
+        x: 480
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,8 +815,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e81fa43eedc5c4ea129815b3d22aee
-      internalID: -2004960883
+      spriteID: 01ac5f7ecf9f4c440af58f954c357ff3
+      internalID: 403007016
       vertices: []
       indices: 
       edges: []
@@ -825,10 +825,10 @@ TextureImporter:
       name: DragonKnight_Alt_33
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 32
-        height: 32
+        x: 576
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,8 +836,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f830d661abf1ab548af52c21d9d872c9
-      internalID: -235824972
+      spriteID: 178c62c61f13a454fb0e5660cdec6afe
+      internalID: -525325093
       vertices: []
       indices: 
       edges: []
@@ -846,10 +846,10 @@ TextureImporter:
       name: DragonKnight_Alt_34
       rect:
         serializedVersion: 2
-        x: 224
-        y: 64
-        width: 32
-        height: 32
+        x: 672
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -857,8 +857,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba27412418c7e17498b697d854a9966c
-      internalID: 1137829910
+      spriteID: 88f0a2a977cbe044389db871a1bd144f
+      internalID: 363076042
       vertices: []
       indices: 
       edges: []
@@ -867,10 +867,10 @@ TextureImporter:
       name: DragonKnight_Alt_35
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 32
-        height: 32
+        x: 768
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -878,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa927438890c94489e603085c0e0227
-      internalID: -1058663464
+      spriteID: 019365e26ad9bb441a6222502acc9dda
+      internalID: -509620239
       vertices: []
       indices: 
       edges: []
@@ -889,9 +889,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,8 +899,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1f99921cd471ec41a389d21493b02bb
-      internalID: 1112682883
+      spriteID: 70de863fa8a3ede4eb4096c191d9f0be
+      internalID: -1241691810
       vertices: []
       indices: 
       edges: []
@@ -909,10 +909,10 @@ TextureImporter:
       name: DragonKnight_Alt_37
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 96
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,8 +920,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df2b46eb088d8744bcadf27dc3a9592
-      internalID: -1040058537
+      spriteID: 461877f1cf7031b4e851dd7a90a52d9b
+      internalID: -1378785913
       vertices: []
       indices: 
       edges: []
@@ -930,10 +930,10 @@ TextureImporter:
       name: DragonKnight_Alt_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 192
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -941,8 +941,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81a59ba33b68055488126c02f2f78d85
-      internalID: 1262847220
+      spriteID: 9007600e2a51829499919addbf2696a0
+      internalID: 308033841
       vertices: []
       indices: 
       edges: []
@@ -951,10 +951,10 @@ TextureImporter:
       name: DragonKnight_Alt_39
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 288
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,8 +962,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7295e4dab2837d49877120d7feb4d27
-      internalID: 1365294102
+      spriteID: 197a6d6dfb0208849bd3b4344de6bf32
+      internalID: -374687693
       vertices: []
       indices: 
       edges: []
@@ -972,10 +972,10 @@ TextureImporter:
       name: DragonKnight_Alt_40
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
+        x: 384
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -983,8 +983,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e30491e758b14b4b8e58fc68c02c65e
-      internalID: -239669821
+      spriteID: d1c7a32ecf73d4749acd8473c2a7883d
+      internalID: 1659798884
       vertices: []
       indices: 
       edges: []
@@ -993,10 +993,10 @@ TextureImporter:
       name: DragonKnight_Alt_41
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
+        x: 480
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1004,8 +1004,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f6f58f7ed1c46e4ca5037068be0d9a0
-      internalID: 354759137
+      spriteID: 0015b3f779cc9d14e9fc2f4b766753aa
+      internalID: -1005799722
       vertices: []
       indices: 
       edges: []
@@ -1014,10 +1014,10 @@ TextureImporter:
       name: DragonKnight_Alt_42
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
-        width: 32
-        height: 32
+        x: 576
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1025,8 +1025,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad9cf6b1964386744b83c325fc489364
-      internalID: -313844032
+      spriteID: 01483a2fb4d170444b8b94faca569a92
+      internalID: -1473021757
       vertices: []
       indices: 
       edges: []
@@ -1035,10 +1035,10 @@ TextureImporter:
       name: DragonKnight_Alt_43
       rect:
         serializedVersion: 2
-        x: 224
-        y: 32
-        width: 32
-        height: 32
+        x: 672
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1046,8 +1046,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa9c7f74eb12a1741bc833c14d3f453e
-      internalID: 1046130029
+      spriteID: 4fa7ee57a9b26704190d978a23469fef
+      internalID: 1161509049
       vertices: []
       indices: 
       edges: []
@@ -1056,10 +1056,10 @@ TextureImporter:
       name: DragonKnight_Alt_44
       rect:
         serializedVersion: 2
-        x: 256
-        y: 32
-        width: 32
-        height: 32
+        x: 768
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1067,8 +1067,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7388613ad50ec9548bcae171be6a209d
-      internalID: 2072259205
+      spriteID: c5354781a7e4c6a49b0b03b09bfc32d0
+      internalID: -325759486
       vertices: []
       indices: 
       edges: []
@@ -1079,8 +1079,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1088,8 +1088,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23029dd5eb3a91047800484ccc495249
-      internalID: 482431115
+      spriteID: 5637cfb63009e2643924310e8a96fd04
+      internalID: -53432387
       vertices: []
       indices: 
       edges: []
@@ -1098,10 +1098,10 @@ TextureImporter:
       name: DragonKnight_Alt_46
       rect:
         serializedVersion: 2
-        x: 32
+        x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1109,8 +1109,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30583b5b670540f49a7eac44d8b57c9d
-      internalID: -2113537367
+      spriteID: 724d4ada27e8a7d4da3dff75b96c69c4
+      internalID: 389095139
       vertices: []
       indices: 
       edges: []
@@ -1119,10 +1119,10 @@ TextureImporter:
       name: DragonKnight_Alt_47
       rect:
         serializedVersion: 2
-        x: 64
+        x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,8 +1130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e248ac0f5d629bc4a878db9a2cb2b045
-      internalID: 1687394443
+      spriteID: 1eb24d75dbd8d194ebd4b48eed0b9025
+      internalID: 2032424968
       vertices: []
       indices: 
       edges: []
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: DragonKnight_Alt_48
       rect:
         serializedVersion: 2
-        x: 96
+        x: 288
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1151,8 +1151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 531c0e9c2229d3345b34258054ab44a7
-      internalID: -1504946273
+      spriteID: 31c725d3c9334c44ab75abb1ccf89de2
+      internalID: 2141638813
       vertices: []
       indices: 
       edges: []
@@ -1161,10 +1161,10 @@ TextureImporter:
       name: DragonKnight_Alt_49
       rect:
         serializedVersion: 2
-        x: 128
+        x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,8 +1172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73997362c23fa349a99d83c57cdfc52
-      internalID: 797318283
+      spriteID: ef763d9bd98e6f8429ae7a6a82ac0213
+      internalID: -724738079
       vertices: []
       indices: 
       edges: []
@@ -1182,10 +1182,10 @@ TextureImporter:
       name: DragonKnight_Alt_50
       rect:
         serializedVersion: 2
-        x: 160
+        x: 480
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,8 +1193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b0e99fe27ba58e4bade86ccbbb11516
-      internalID: 367607783
+      spriteID: 77d691cbe4d3e0243920abd6298c1565
+      internalID: 672482936
       vertices: []
       indices: 
       edges: []
@@ -1203,10 +1203,10 @@ TextureImporter:
       name: DragonKnight_Alt_51
       rect:
         serializedVersion: 2
-        x: 192
+        x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1214,8 +1214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1577b10aca41a9345906afc43df8f2f7
-      internalID: 850297755
+      spriteID: 46ecf737c0aec7b42b46d0bcca87df98
+      internalID: -314790226
       vertices: []
       indices: 
       edges: []
@@ -1224,10 +1224,10 @@ TextureImporter:
       name: DragonKnight_Alt_52
       rect:
         serializedVersion: 2
-        x: 224
+        x: 672
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1235,8 +1235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec31525f9e2fb8544bc479baf9e73367
-      internalID: 1047745764
+      spriteID: a4a5b214b064b1c45a1bdcf79b6cd7f5
+      internalID: -1190232471
       vertices: []
       indices: 
       edges: []
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: DragonKnight_Alt_53
       rect:
         serializedVersion: 2
-        x: 256
+        x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1256,8 +1256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b218ccab0dc0c6b47b169f4d12d009c2
-      internalID: -702634411
+      spriteID: 6662cfa44ec170d41a054413474beb03
+      internalID: -266645133
       vertices: []
       indices: 
       edges: []
@@ -1273,60 +1273,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DragonKnight_Alt_2: -675588369
-      DragonKnight_Alt_17: -498387885
-      DragonKnight_Alt_34: 1137829910
-      DragonKnight_Alt_48: -1504946273
-      DragonKnight_Alt_1: -972764953
-      DragonKnight_Alt_42: -313844032
-      DragonKnight_Alt_51: 850297755
-      DragonKnight_Alt_23: -1475103547
-      DragonKnight_Alt_31: 1946587023
-      DragonKnight_Alt_30: -1701945371
-      DragonKnight_Alt_24: -1449126628
-      DragonKnight_Alt_20: -1653352807
-      DragonKnight_Alt_5: 73647764
-      DragonKnight_Alt_18: -1696693192
-      DragonKnight_Alt_50: 367607783
-      DragonKnight_Alt_11: -1913662628
-      DragonKnight_Alt_26: 74751888
-      DragonKnight_Alt_41: 354759137
-      DragonKnight_Alt_13: -288487264
-      DragonKnight_Alt_40: -239669821
-      DragonKnight_Alt_16: -1129809803
-      DragonKnight_Alt_12: -1803773956
-      DragonKnight_Alt_19: -1401588496
-      DragonKnight_Alt_33: -235824972
-      DragonKnight_Alt_45: 482431115
-      DragonKnight_Alt_52: 1047745764
-      DragonKnight_Alt_46: -2113537367
-      DragonKnight_Alt_32: -2004960883
-      DragonKnight_Alt_28: 953155387
-      DragonKnight_Alt_29: -607847444
-      DragonKnight_Alt_4: -119121101
-      DragonKnight_Alt_7: 254002868
-      DragonKnight_Alt_38: 1262847220
-      DragonKnight_Alt_0: 743424996
-      DragonKnight_Alt_43: 1046130029
-      DragonKnight_Alt_8: 1007979855
-      DragonKnight_Alt_14: 1531262978
-      DragonKnight_Alt_9: -2053078501
-      DragonKnight_Alt_22: 885415876
-      DragonKnight_Alt_49: 797318283
-      DragonKnight_Alt_35: -1058663464
-      DragonKnight_Alt_53: -702634411
-      DragonKnight_Alt_47: 1687394443
-      DragonKnight_Alt_3: 901332799
-      DragonKnight_Alt_25: -1655207264
-      DragonKnight_Alt_15: 1610935569
-      DragonKnight_Alt_44: 2072259205
-      DragonKnight_Alt_37: -1040058537
-      DragonKnight_Alt_21: 2069543371
-      DragonKnight_Alt_27: -2122939773
-      DragonKnight_Alt_10: -1571571397
-      DragonKnight_Alt_6: -1203905910
-      DragonKnight_Alt_39: 1365294102
-      DragonKnight_Alt_36: 1112682883
+      DragonKnight_Alt_2: -1652236876
+      DragonKnight_Alt_17: -75586160
+      DragonKnight_Alt_34: 363076042
+      DragonKnight_Alt_48: 2141638813
+      DragonKnight_Alt_1: -1335861524
+      DragonKnight_Alt_42: -1473021757
+      DragonKnight_Alt_51: -314790226
+      DragonKnight_Alt_23: -732345588
+      DragonKnight_Alt_31: -401400748
+      DragonKnight_Alt_30: 1152548237
+      DragonKnight_Alt_24: -1346831230
+      DragonKnight_Alt_20: -156633787
+      DragonKnight_Alt_5: -1929858701
+      DragonKnight_Alt_18: -725284213
+      DragonKnight_Alt_50: 672482936
+      DragonKnight_Alt_11: 1848945998
+      DragonKnight_Alt_26: 958435405
+      DragonKnight_Alt_41: -1005799722
+      DragonKnight_Alt_13: 600901089
+      DragonKnight_Alt_40: 1659798884
+      DragonKnight_Alt_16: -2048414501
+      DragonKnight_Alt_12: 53205482
+      DragonKnight_Alt_19: -692012832
+      DragonKnight_Alt_33: -525325093
+      DragonKnight_Alt_45: -53432387
+      DragonKnight_Alt_52: -1190232471
+      DragonKnight_Alt_46: 389095139
+      DragonKnight_Alt_32: 403007016
+      DragonKnight_Alt_28: 1968967034
+      DragonKnight_Alt_29: 1170047384
+      DragonKnight_Alt_4: -1682614437
+      DragonKnight_Alt_7: -204565216
+      DragonKnight_Alt_38: 308033841
+      DragonKnight_Alt_0: -840105093
+      DragonKnight_Alt_43: 1161509049
+      DragonKnight_Alt_8: 1495398814
+      DragonKnight_Alt_14: 1805025041
+      DragonKnight_Alt_9: -343999486
+      DragonKnight_Alt_22: -714031515
+      DragonKnight_Alt_49: -724738079
+      DragonKnight_Alt_35: -509620239
+      DragonKnight_Alt_53: -266645133
+      DragonKnight_Alt_47: 2032424968
+      DragonKnight_Alt_3: 1779348392
+      DragonKnight_Alt_25: -758404252
+      DragonKnight_Alt_15: 157571947
+      DragonKnight_Alt_44: -325759486
+      DragonKnight_Alt_37: -1378785913
+      DragonKnight_Alt_21: -1267615783
+      DragonKnight_Alt_27: 1641755146
+      DragonKnight_Alt_10: -2034293319
+      DragonKnight_Alt_6: -1281695753
+      DragonKnight_Alt_39: -374687693
+      DragonKnight_Alt_36: -1241691810
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

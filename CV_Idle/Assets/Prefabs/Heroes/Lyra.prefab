@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4607279983515837894}
   - component: {fileID: 3830634034188710821}
   m_Layer: 0
-  m_Name: Archer
+  m_Name: Lyra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d76c9ec76b40b4ba6a713268f631df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 1
+  abilityDamage: 50
+  cooldownDuration: 60
   attackInterval: 1
   abilityButtonPrefab: {fileID: 5411893586686890872, guid: 760ef892e0381394da69b81faad0c6c1, type: 3}
   bust: {fileID: 21300000, guid: 158e4724448a2784e95351c8d4cbfa6d, type: 3}
@@ -90,12 +92,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1633217944, guid: e1ea343009e04d9429ede170d35247ea, type: 3}
+  m_Sprite: {fileID: -1718133443, guid: e1ea343009e04d9429ede170d35247ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

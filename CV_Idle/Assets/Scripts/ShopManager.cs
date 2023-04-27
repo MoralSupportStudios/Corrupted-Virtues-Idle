@@ -34,6 +34,29 @@ public class ShopManager : MonoBehaviour
         gameManager.enemyManager.CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!gameObject.activeSelf);
 
         ToggleHero();
+
+        //Update hero panel
+        UpdateHeroPanelHeroStat();
+    }
+
+    private void UpdateHeroPanelHeroStat()
+    {
+        if (gameObject.activeSelf)
+        {
+            int index = 0;
+            foreach (GameObject go in heroPanels)
+            {
+
+                if (gameManager.heroManager.heroParty.Exists(h => h.name.StartsWith(go.GetComponent<HeroPanel>().heroNameText.text)))
+                {
+
+                    go.GetComponent<HeroPanel>().heroStatsText.text = $"Damage Per Attack: {gameManager.heroManager.heroParty[index].GetComponent<Hero>().damage}" +
+                                         $"\r\nAttacks Per Second: {gameManager.heroManager.heroParty[index].GetComponent<Hero>().attackInterval}" +
+                                         $"\r\nAbility Damage: {gameManager.heroManager.heroParty[index].GetComponent<Hero>().abilityDamage}";
+                }
+                index++;
+            }
+        }
     }
 
     private void ToggleHero()
@@ -63,6 +86,8 @@ public class ShopManager : MonoBehaviour
         {
             selectedHero.damage += 10;
             gameManager.virtuePoints -= damageUpgradeCost;
+
+            UpdateHeroPanelHeroStat();
         }
     }
 

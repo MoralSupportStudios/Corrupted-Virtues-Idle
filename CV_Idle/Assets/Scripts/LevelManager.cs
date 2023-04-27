@@ -43,9 +43,18 @@ public class LevelManager : MonoBehaviour
         bool isBoss = round >= regions[stage].sprites.Count;
 
         // Calculate health increment
-        int healthMultiplier = isBoss ? 11 : 10;
-        enemyHealthIncrement = (int)((healthMultiplier * Mathf.Pow(1 + 0.05f, (round + 1) * (stage + 1) * (cycle + 1))) + 101);
+        int roundHealthIncrement = 5 * round;
+        int stageHealthIncrement = 100 * stage;
+        int cycleHealthIncrement = 1000 * cycle;
 
-        return enemyHealthIncrement;
+        // Set a base health and a boss health bonus
+        int baseHealth = 100;
+        int bossHealthBonus = isBoss ? 150 : 0;
+
+        // Calculate total health
+        int enemyHealth = baseHealth + roundHealthIncrement + stageHealthIncrement + cycleHealthIncrement + bossHealthBonus;
+
+        return enemyHealth;
     }
+
 }

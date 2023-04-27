@@ -18,17 +18,17 @@ public class HeroManager : MonoBehaviour
     public void SpawnHero(GameObject heroPrefab, int heroIndex)
     {
         Vector2[] heroPositions = new Vector2[] {
-            new Vector2(-6, 0),
-            new Vector2(-7, -1),
-            new Vector2(-7, 1),
-            new Vector2(-8, -1),
-            new Vector2(-8, 1)
+            new Vector2(-3, -0.5f),
+            new Vector2(-5, -1.5f),
+            new Vector2(-5, 0.5f),
+            new Vector2(-7, -1.5f),
+            new Vector2(-7f, 0.5f)
         };
 
         GameObject hero = Instantiate(heroPrefab, heroPositions[heroIndex], Quaternion.identity);
         hero.transform.SetParent(heroSpawn, false);
         heroParty[heroIndex] = hero;
-        hero.transform.localScale = new Vector3(3, 3, 1);
+        hero.transform.localScale = new Vector3(2, 2, 1);
         uiManager.CreateAbilityButton(hero.GetComponent<Hero>().abilityButtonPrefab, hero.GetComponent<Hero>(), heroIndex);
     }
 }

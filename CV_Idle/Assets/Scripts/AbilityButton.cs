@@ -5,12 +5,9 @@ public class AbilityButton : MonoBehaviour
 {
     public Image buttonForeground;
     public Image buttonBust;
-    public float cooldownDuration = 5.0f;
     private float cooldownTimeLeft;
-
     private Hero hero;
     private GameManager gameManager;
-    private int abilityDamage = 1000;
 
     public void Initialize(Hero hero, GameManager gameManager)
     {
@@ -30,7 +27,7 @@ public class AbilityButton : MonoBehaviour
         if (cooldownTimeLeft > 0)
         {
             cooldownTimeLeft -= Time.deltaTime;
-            buttonForeground.fillAmount = (cooldownTimeLeft / cooldownDuration);
+            buttonForeground.fillAmount = (cooldownTimeLeft / hero.cooldownDuration);
         }
     }
 
@@ -41,11 +38,11 @@ public class AbilityButton : MonoBehaviour
             // Activate ability and deal damage
             if (gameManager.enemyManager.CurrentEnemy != null)
             {
-                gameManager.enemyManager.CurrentEnemy.GetComponent<Enemy>().TakeDamage(abilityDamage);
+                gameManager.enemyManager.CurrentEnemy.GetComponent<Enemy>().TakeDamage(hero.abilityDamage);
             }
 
             // Start cooldown
-            cooldownTimeLeft = cooldownDuration;
+            cooldownTimeLeft = hero.cooldownDuration;
             buttonForeground.fillAmount = 1;
         }
     }
