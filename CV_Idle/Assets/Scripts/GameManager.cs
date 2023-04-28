@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public UIManager uiManager;
     
     public int virtuePoints = 0;
+    public int sanctifyPoints = 0;
 
     public void Awake()
     {

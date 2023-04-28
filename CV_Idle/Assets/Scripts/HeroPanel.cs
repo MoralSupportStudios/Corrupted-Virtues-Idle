@@ -29,12 +29,13 @@ public class HeroPanel : MonoBehaviour
         {
             int partyIndex = shopManager.gameManager.heroManager.heroParty.FindIndex(h => h.name.StartsWith(hero.name));
             increaseDamageButton.onClick.AddListener(() => shopManager.IncreaseDamage(partyIndex));
+            increaseDamageButton.GetComponentInChildren<TMP_Text>().text = $"Increase Damage {hero.GetComponent<Hero>().damage} \r\nCost {shopManager.damageUpgradeCost} VP";
             decreaseAttackIntervalButton.onClick.AddListener(() => shopManager.DecreaseAttackInterval(partyIndex));
-
-
+            decreaseAttackIntervalButton.GetComponentInChildren<TMP_Text>().text = $"Buy Hero {hero.GetComponent<Hero>().attackInterval} \r\nCost {shopManager.damageUpgradeCost}VP";
         }
         else
         {
+            buyHeroButton.GetComponentInChildren<TMP_Text>().text = $"Buy Hero {hero.GetComponent<Hero>().purchaseCost} VP";
             buyHeroButton.onClick.AddListener(() =>
             {
                 shopManager.PurchaseHero(heroIndex, this);

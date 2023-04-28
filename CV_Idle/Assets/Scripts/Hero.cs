@@ -8,6 +8,7 @@ public class Hero : MonoBehaviour
     public float attackInterval = 1.0f;
     public GameObject abilityButtonPrefab;
     public Sprite bust;
+    public int purchaseCost = 1;
     public float nextAttackTime { get; set; }
 
     public void Attack(Enemy enemyScript)

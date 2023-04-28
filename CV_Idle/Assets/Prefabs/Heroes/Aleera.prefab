@@ -52,6 +52,7 @@ MonoBehaviour:
   attackInterval: 1
   abilityButtonPrefab: {fileID: 5411893586686890872, guid: 760ef892e0381394da69b81faad0c6c1, type: 3}
   bust: {fileID: 21300000, guid: 050f9c9c3a4524742ad543e0006ad52a, type: 3}
+  purchaseCost: 50
 --- !u!212 &3830634034188710821
 SpriteRenderer:
   m_ObjectHideFlags: 0

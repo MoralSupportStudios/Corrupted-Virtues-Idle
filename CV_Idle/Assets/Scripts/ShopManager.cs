@@ -10,11 +10,10 @@ public class ShopManager : MonoBehaviour
     public Transform heroPanelsContainer;
     public List<GameObject> availableHeroes;
 
-    public int damageUpgradeCost = 5;
-    public int attackIntervalUpgradeCost = 10;
-    public int heroPurchaseCost = 100;
+    public int damageUpgradeCost = 10;
+    public int attackIntervalUpgradeCost = 100;
 
-    private List<GameObject> heroPanels = new List<GameObject>();
+    public List<GameObject> heroPanels = new List<GameObject>();
 
     private void Start()
     {
@@ -84,7 +83,7 @@ public class ShopManager : MonoBehaviour
 
         if (gameManager.virtuePoints >= damageUpgradeCost)
         {
-            selectedHero.damage += 10;
+            selectedHero.damage += 1;
             gameManager.virtuePoints -= damageUpgradeCost;
 
             UpdateHeroPanelHeroStat();
@@ -107,13 +106,13 @@ public class ShopManager : MonoBehaviour
 
     public void PurchaseHero(int heroIndex, HeroPanel heroPanel)
     {
-        if (gameManager.virtuePoints >= heroPurchaseCost)
+        GameObject hero = availableHeroes[heroIndex];
+        if (gameManager.virtuePoints >= hero.GetComponent<Hero>().purchaseCost)
         {
-            GameObject hero = availableHeroes[heroIndex];
             if (!gameManager.heroManager.heroParty.Exists(h => h.name.StartsWith(hero.name)))
             {
                 gameManager.heroManager.heroParty.Add(hero);
-                gameManager.virtuePoints -= heroPurchaseCost;
+                gameManager.virtuePoints -= hero.GetComponent<Hero>().purchaseCost;
 
                 heroPanel.Initialize(heroIndex, this);
 

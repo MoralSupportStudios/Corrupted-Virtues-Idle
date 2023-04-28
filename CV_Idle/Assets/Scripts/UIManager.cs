@@ -14,6 +14,33 @@ public class UIManager : MonoBehaviour
     public Transform abilityButtonsContainer;
     public GameObject ShopPanel;
     public GameManager gameManager;
+    public GameObject Button;
+    public GameObject ButtonPanel;
+
+    public void ToggleButtonPanel()
+    {
+        if (ButtonPanel.activeSelf)
+        {
+            ButtonPanel.SetActive(false);
+        }
+        else
+        {
+            ButtonPanel.SetActive(true);
+        }
+
+        //ButtonPanel.SetActive(!gameObject.activeSelf);
+
+        gameManager.enemyManager.CurrentEnemy.SetActive(!ButtonPanel.activeSelf);
+        gameManager.enemyManager.CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!ButtonPanel.activeSelf);
+
+        foreach (GameObject hero in gameManager.heroManager.heroParty)
+        {
+            hero.SetActive(!ButtonPanel.activeSelf);
+        }
+        gameManager.uiManager.abilityButtonsContainer.gameObject.SetActive(!ButtonPanel.activeSelf);
+
+
+    }
 
     public AbilityButton CreateAbilityButton(GameObject abilityButtonPrefab, Hero hero, int heroIndex)
     {

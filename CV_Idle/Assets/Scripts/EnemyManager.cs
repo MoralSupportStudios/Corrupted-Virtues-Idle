@@ -14,7 +14,17 @@ public class EnemyManager : MonoBehaviour
     {
         // Instantiate a new enemy and get its script
         CurrentEnemy = Instantiate(enemyPrefab);
-        CurrentEnemy.SetActive(!uiManager.ShopPanel.activeSelf);
+
+
+        if (uiManager.ShopPanel.activeSelf || uiManager.ButtonPanel.activeSelf)
+        {
+            CurrentEnemy.SetActive(false);
+        }
+        else
+        {
+            CurrentEnemy.SetActive(true);
+        }
+        
 
         // Set the Canvas reference
         CurrentEnemy.GetComponent<Enemy>().canvas = gameManager.uiManager.mainCanvas;
@@ -50,7 +60,14 @@ public class EnemyManager : MonoBehaviour
 
         // Create and set up the health bar
         CurrentEnemy.GetComponent<Enemy>().CreateHealthBar();
-        CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(!uiManager.ShopPanel.activeSelf);
+        if (uiManager.ShopPanel.activeSelf || uiManager.ButtonPanel.activeSelf)
+        {
+            CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(false);
+        }
+        else
+        {
+            CurrentEnemy.GetComponent<Enemy>().healthBarInstance.gameObject.SetActive(true);
+        }
 
         // Update the stage display
         levelManager.UpdateStageDisplay();
@@ -67,8 +84,7 @@ public class EnemyManager : MonoBehaviour
         // Increase the difficulty
         levelManager.IncreaseDifficulty();
 
-        // Increase virtue points
-        gameManager.virtuePoints += 3;
+        levelManager.RewardVirtuePoints();
 
         // Spawn a new enemy
         SpawnEnemy();

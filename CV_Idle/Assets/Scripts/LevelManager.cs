@@ -57,4 +57,17 @@ public class LevelManager : MonoBehaviour
         return enemyHealth;
     }
 
+    public void RewardVirtuePoints()
+    {
+        bool isBoss = round >= regions[stage].sprites.Count;
+
+        if(isBoss)
+        {
+            gameManager.virtuePoints += 10 * (cycle + 1);
+        }
+        else
+        {
+            gameManager.virtuePoints += 1 * (cycle + 1);
+        }
+    }
 }

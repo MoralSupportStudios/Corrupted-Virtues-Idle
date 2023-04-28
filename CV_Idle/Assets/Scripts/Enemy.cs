@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         OnEnemyDeath?.Invoke();
 

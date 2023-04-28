@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2435946325186158745}
   - component: {fileID: 4607279983515837894}
   - component: {fileID: 3830634034188710821}
-  - component: {fileID: 5584420753307656301}
+  - component: {fileID: 5986683131326563735}
   m_Layer: 0
   m_Name: Guardian
   m_TagString: Untagged
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2966536729528580373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7, y: -1, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,7 +51,8 @@ MonoBehaviour:
   cooldownDuration: 60
   attackInterval: 1
   abilityButtonPrefab: {fileID: 5411893586686890872, guid: 760ef892e0381394da69b81faad0c6c1, type: 3}
-  bust: {fileID: 21300000, guid: bc7e5f1f26f7e4e4bb5b19985004172e, type: 3}
+  bust: {fileID: 21300000, guid: dfb54e4eeffafdb4ea9c01cc6ef7c1b0, type: 3}
+  purchaseCost: 0
 --- !u!212 &3830634034188710821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -93,7 +94,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1779348392, guid: 9fea555e3edebac448e62314d1de0e5d, type: 3}
+  m_Sprite: {fileID: -1929858701, guid: 9fea555e3edebac448e62314d1de0e5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +105,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5584420753307656301
+--- !u!95 &5986683131326563735
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
