@@ -37,8 +37,8 @@ public class UIManager : MonoBehaviour
         {
             hero.SetActive(!ButtonPanel.activeSelf);
         }
-        gameManager.uiManager.abilityButtonsContainer.gameObject.SetActive(!ButtonPanel.activeSelf);
-
+        abilityButtonsContainer.gameObject.SetActive(!ButtonPanel.activeSelf);
+        
 
     }
 

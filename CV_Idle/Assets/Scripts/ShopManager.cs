@@ -34,8 +34,9 @@ public class ShopManager : MonoBehaviour
 
         ToggleHero();
 
-        //Update hero panel
         UpdateHeroPanelHeroStat();
+        //This works right now of the heirchy structure of the canvas. If the heirchy changes, this will break.
+        gameManager.uiManager.ButtonPanel.SetActive(false);
     }
 
     private void UpdateHeroPanelHeroStat()
@@ -77,29 +78,29 @@ public class ShopManager : MonoBehaviour
         }
     }
 
-    public void IncreaseDamage(int heroIndex)
+    public void IncreaseDamage(HeroPanel heroPanel)
     {
-        Hero selectedHero = gameManager.heroManager.heroParty[heroIndex].GetComponent<Hero>();
+        Hero selectedHero = heroPanel.Hero.GetComponent<Hero>();
 
         if (gameManager.virtuePoints >= damageUpgradeCost)
         {
             selectedHero.damage += 1;
             gameManager.virtuePoints -= damageUpgradeCost;
 
-            UpdateHeroPanelHeroStat();
+            heroPanel.UpdateHeroStats(); // Update the hero stats in the panel
         }
     }
 
-    public void DecreaseAttackInterval(int heroIndex)
+    public void DecreaseAttackInterval(HeroPanel heroPanel)
     {
-        Hero selectedHero = gameManager.heroManager.heroParty[heroIndex].GetComponent<Hero>();
+        Hero selectedHero = heroPanel.Hero.GetComponent<Hero>();
 
         if (gameManager.virtuePoints >= attackIntervalUpgradeCost && selectedHero.attackInterval > 0.1f)
         {
             selectedHero.attackInterval -= 0.1f;
             gameManager.virtuePoints -= attackIntervalUpgradeCost;
 
-            UpdateHeroPanelHeroStat();
+            heroPanel.UpdateHeroStats(); // Update the hero stats in the panel
         }
     }
 
